@@ -1,0 +1,45 @@
+p.logo-slogan {
+	text-transform: capitalize;
+	color: #fff;
+	text-align: center;
+}
+.big-over .container .row a {
+	text-decoration: none;
+}
+
+div.owner.big-block div.container div.row div.bigmenu div.item-block.block-supercargo {
+	background-image: url("../images/bigmenu/supercargo.jpg");
+}
+div.owner.big-block div.container div.row div.bigmenu div.item-block.block-about-css {
+	background-image: url("../images/bigmenu/about.jpg");
+}
+div.owner.big-block div.container div.row div.bigmenu div.item-block.block-gallery {
+	background-image: url("../images/bigmenu/photo.jpg");
+}
+div.owner.big-block div.container div.row div.bigmenu div.item-block.block-services {
+	background-image: url("../images/bigmenu/service.jpg");
+}
+div.owner.big-block div.container div.row div.bigmenu div.item-block.block-partnership {
+	background-image: url("../images/bigmenu/partnership.jpg");
+}
+div.owner.big-block div.container div.row div.bigmenu div.item-block.block-contacts {
+	background-image: url("../images/bigmenu/contacts.jpg");
+}
+div.owner.maincontent div.container div.row div.blog_services div.item-block.item_00,
+div.owner.maincontent div.container div.row div.blog_services div.item-block.item_01,
+div.owner.maincontent div.container div.row div.blog_services div.item-block.item_02,
+div.owner.maincontent div.container div.row div.blog_services div.item-block.item_03,
+div.owner.maincontent div.container div.row div.blog_services div.item-block.item_04,
+div.owner.maincontent div.container div.row div.blog_services div.item-block.item_05 {
+	background-image: url("../images/service/image-1.jpg");
+}
+
+div.service_block {
+	margin-bottom: 40px;
+}
+div.service_block h1.service_title {
+	margin-bottom: 12px;
+}
+div.service_block p.service_description {
+	/*color: red;*/
+}

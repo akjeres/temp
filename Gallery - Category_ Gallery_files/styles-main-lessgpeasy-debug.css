@@ -1,0 +1,1996 @@
+/* cacheid:84e5a282054650eb1dfcab0291114099 */
+BODY,
+DIV,
+P,
+H1,
+H2,
+H3,
+H4,
+H5,
+TABLE,
+TD,
+INPUT,
+TEXTAREA,
+LABEL,
+BUTTON,
+SELECT,
+UL,
+OL,
+LI,
+SPAN,
+A {
+  font-family: PTregular, Arial, serif;
+  -webkit-transition: ease 0s, background 0.3s ease 0s, height 0.3s ease 0s, filter 0.3s ease 0s, box-shadow 0.3s ease 0s, opacity 0.3s, linear-gradient 0.3s ease 0s, border 0.3s ease 0s, color 0.3s ease 0s, margin 0.3s ease 0s, padding 0.3s ease 0s;
+  -moz-transition: ease 0s, background 0.3s ease 0s, height 0.3s ease 0s, filter 0.3s ease 0s, box-shadow 0.3s ease 0s, opacity 0.3s, linear-gradient 0.3s ease 0s, border 0.3s ease 0s, color 0.3s ease 0s, margin 0.3s ease 0s, padding 0.3s ease 0s;
+  -o-transition: ease 0s, background 0.3s ease 0s, height 0.3s ease 0s, filter 0.3s ease 0s, box-shadow 0.3s ease 0s, opacity 0.3s, linear-gradient 0.3s ease 0s, border 0.3s ease 0s, color 0.3s ease 0s, margin 0.3s ease 0s, padding 0.3s ease 0s;
+  transition: ease 0s, background 0.3s ease 0s, height 0.3s ease 0s, filter 0.3s ease 0s, box-shadow 0.3s ease 0s, opacity 0.3s, linear-gradient 0.3s ease 0s, border 0.3s ease 0s, color 0.3s ease 0s, margin 0.3s ease 0s, padding 0.3s ease 0s;
+}
+BODY {
+  font-family: PTregular, Arial, serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: #404040;
+  background-color: #0f161b;
+}
+BODY P {
+  margin: 0;
+  padding: 0;
+  font-family: PTregular, Arial, serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #404040;
+}
+H1,
+H2 {
+  margin: 0;
+}
+H1 {
+  font-size: 48px;
+  line-height: 48px;
+  color: #64b5ee;
+  text-align: left;
+  font-family: PTbold, Arial, serif;
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+H2 {
+  font-size: 36px;
+  line-height: 48px;
+  color: #404040;
+}
+TD,
+TH,
+LI,
+DIV {
+  font-size: 18px;
+}
+.pagination {
+  display: block;
+  clear: both;
+  overflow: hidden;
+  text-align: left;
+}
+.pagination UL {
+  float: left;
+  padding: 0px 15px 0px;
+  display: table;
+}
+.pagination UL LI {
+  display: table-cell;
+  height: 42px;
+}
+.pagination UL LI SPAN,
+.pagination UL LI a {
+  height: 42px;
+  line-height: 38px;
+  border-radius: 50%;
+  font-size: 16px;
+  border-style: solid;
+  border-width: 1px;
+  width: 42px;
+  display: block;
+  margin: 0px 2px;
+}
+.pagination UL LI A {
+  border-color: #ababab;
+  text-decoration: none;
+}
+.pagination UL LI A:hover {
+  border-color: #64b5ee;
+}
+.pagination UL LI SPAN {
+  border-color: #64b5ee;
+  background-color: #64b5ee;
+  color: #ffffff;
+}
+.pagination UL LI.pagination-prev,
+.pagination UL LI.pagination-next {
+  display: none !important;
+}
+#lbImage {
+  border: 0 !important;
+}
+FORM INPUT {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 48px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #404040;
+  box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.15);
+}
+FORM INPUT:hover,
+FORM INPUT:focus {
+  box-shadow: 0 0 15px #ffffff, inset 0 3px 3px rgba(0, 0, 0, 0.15);
+}
+FORM BUTTON {
+  height: 48px;
+  min-width: 255px;
+}
+.btn-success {
+  background: linear-gradient(to bottom, #fe9e9e, #f28a87);
+  border: 0;
+  border-color: transparent;
+  box-shadow: inset 0 -3px 6px rgba(0, 0, 0, 0.15), 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+.btn-success SPAN.pen-btn-success {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url("https://www.marine-supercargo.com/templates/marinesupercargo/images/icons/pen-btn-success.png");
+  background-size: 100%;
+}
+.btn-success:hover,
+.btn-success:focus {
+  background: linear-gradient(to bottom, #f28989, #fc6663);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.myCenter {
+  text-align: center;
+}
+.fa-vk:hover {
+  color: #3500ff;
+}
+.fa-instagram:hover {
+  color: #aae400;
+}
+.fa-odnoklassniki:hover {
+  color: #ffb300;
+}
+.fa-facebook:hover {
+  color: #009fff;
+}
+.fa-twitter:hover {
+  color: #25ff00;
+}
+.fa-google:hover {
+  color: #00fdff;
+}
+.fa-share-square-o:hover {
+  color: #da00ff;
+}
+#modalZayavka,
+.onlineCart,
+#sendReview,
+.onlineZayavka {
+  background: rgba(0, 0, 0, 0.4);
+}
+#modalZayavka .modal-dialog,
+.onlineCart .modal-dialog,
+#sendReview .modal-dialog,
+.onlineZayavka .modal-dialog {
+  margin: 50px auto;
+  max-width: 457px;
+}
+#modalZayavka .modal-dialog .modal-content,
+.onlineCart .modal-dialog .modal-content,
+#sendReview .modal-dialog .modal-content,
+.onlineZayavka .modal-dialog .modal-content {
+  padding: 47px 30px 50px;
+  border-radius: 3px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+#modalZayavka .modal-dialog .modal-content .modal-header,
+.onlineCart .modal-dialog .modal-content .modal-header,
+#sendReview .modal-dialog .modal-content .modal-header,
+.onlineZayavka .modal-dialog .modal-content .modal-header {
+  padding: 0;
+  border: 0;
+}
+#modalZayavka .modal-dialog .modal-content .modal-header H2,
+.onlineCart .modal-dialog .modal-content .modal-header H2,
+#sendReview .modal-dialog .modal-content .modal-header H2,
+.onlineZayavka .modal-dialog .modal-content .modal-header H2 {
+  margin: 0 0 32px;
+  font-size: 19px;
+  color: #404040;
+  text-align: center;
+}
+#modalZayavka .modal-dialog .modal-content .modal-header BUTTON.close,
+.onlineCart .modal-dialog .modal-content .modal-header BUTTON.close,
+#sendReview .modal-dialog .modal-content .modal-header BUTTON.close,
+.onlineZayavka .modal-dialog .modal-content .modal-header BUTTON.close {
+  opacity: 0.75;
+  position: absolute;
+  top: 4px;
+  right: 9px;
+  font-family: 'Material Icons';
+  font-size: 36px;
+  color: #404040;
+}
+#modalZayavka .modal-dialog .modal-content .modal-header BUTTON.close:hover,
+.onlineCart .modal-dialog .modal-content .modal-header BUTTON.close:hover,
+#sendReview .modal-dialog .modal-content .modal-header BUTTON.close:hover,
+.onlineZayavka .modal-dialog .modal-content .modal-header BUTTON.close:hover {
+  opacity: 1;
+}
+#modalZayavka .modal-dialog .modal-content .modal-body,
+.onlineCart .modal-dialog .modal-content .modal-body,
+#sendReview .modal-dialog .modal-content .modal-body,
+.onlineZayavka .modal-dialog .modal-content .modal-body {
+  padding: 0;
+}
+#modalZayavka .modal-dialog .modal-content .modal-body FORM,
+.onlineCart .modal-dialog .modal-content .modal-body FORM,
+#sendReview .modal-dialog .modal-content .modal-body FORM,
+.onlineZayavka .modal-dialog .modal-content .modal-body FORM {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#modalZayavka .modal-dialog .modal-content .modal-body FORM INPUT,
+.onlineCart .modal-dialog .modal-content .modal-body FORM INPUT,
+#sendReview .modal-dialog .modal-content .modal-body FORM INPUT,
+.onlineZayavka .modal-dialog .modal-content .modal-body FORM INPUT,
+#modalZayavka .modal-dialog .modal-content .modal-body FORM TEXTAREA,
+.onlineCart .modal-dialog .modal-content .modal-body FORM TEXTAREA,
+#sendReview .modal-dialog .modal-content .modal-body FORM TEXTAREA,
+.onlineZayavka .modal-dialog .modal-content .modal-body FORM TEXTAREA {
+  margin: 0 0 9px !important;
+  width: 100% !important;
+  font-size: 14px !important;
+  color: #444 !important;
+  border: 1px solid #e7e7e7 !important;
+  box-shadow: none !important;
+  border-radius: 4px !important;
+}
+#modalZayavka .modal-dialog .modal-content .modal-body FORM TEXTAREA,
+.onlineCart .modal-dialog .modal-content .modal-body FORM TEXTAREA,
+#sendReview .modal-dialog .modal-content .modal-body FORM TEXTAREA,
+.onlineZayavka .modal-dialog .modal-content .modal-body FORM TEXTAREA {
+  padding: 15px 20px;
+}
+#modalZayavka .modal-dialog .modal-content .modal-body FORM I,
+.onlineCart .modal-dialog .modal-content .modal-body FORM I,
+#sendReview .modal-dialog .modal-content .modal-body FORM I,
+.onlineZayavka .modal-dialog .modal-content .modal-body FORM I {
+  margin-left: 8px;
+  font-size: 16px;
+}
+#modalZayavka .modal-dialog .modal-content .modal-body FORM LABEL,
+.onlineCart .modal-dialog .modal-content .modal-body FORM LABEL,
+#sendReview .modal-dialog .modal-content .modal-body FORM LABEL,
+.onlineZayavka .modal-dialog .modal-content .modal-body FORM LABEL {
+  font-size: 14px !important;
+  color: #999999 !important;
+}
+#modalZayavka .modal-dialog .modal-content .modal-body BUTTON,
+.onlineCart .modal-dialog .modal-content .modal-body BUTTON,
+#sendReview .modal-dialog .modal-content .modal-body BUTTON,
+.onlineZayavka .modal-dialog .modal-content .modal-body BUTTON {
+  margin: 32px 0 0 !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
+  max-width: 186px !important;
+  border-radius: 6px !important;
+  background: linear-gradient(to bottom, #e53935 50%, #d32f2f 50%) !important;
+  font-size: 16px !important;
+  color: #fff !important;
+}
+#modalZayavka .modal-dialog .modal-content .modal-body BUTTON:hover,
+.onlineCart .modal-dialog .modal-content .modal-body BUTTON:hover,
+#sendReview .modal-dialog .modal-content .modal-body BUTTON:hover,
+.onlineZayavka .modal-dialog .modal-content .modal-body BUTTON:hover {
+  background: linear-gradient(to bottom, #e53935 50%, #e53935 50%) !important;
+}
+#modalZayavka .checkInfo,
+.onlineCart .checkInfo,
+#sendReview .checkInfo,
+.onlineZayavka .checkInfo {
+  display: table;
+  width: 90%;
+  margin: 25px auto 0;
+}
+#modalZayavka .checkInfo .checkInfoImg,
+.onlineCart .checkInfo .checkInfoImg,
+#sendReview .checkInfo .checkInfoImg,
+.onlineZayavka .checkInfo .checkInfoImg,
+#modalZayavka .checkInfo .checkInfoText,
+.onlineCart .checkInfo .checkInfoText,
+#sendReview .checkInfo .checkInfoText,
+.onlineZayavka .checkInfo .checkInfoText {
+  display: table-cell;
+  vertical-align: middle;
+}
+#modalZayavka .checkInfo .checkInfoImg,
+.onlineCart .checkInfo .checkInfoImg,
+#sendReview .checkInfo .checkInfoImg,
+.onlineZayavka .checkInfo .checkInfoImg {
+  width: 60px;
+  height: 100%;
+  background-image: url("https://www.marine-supercargo.com/templates/marinesupercargo/images/icons/checkInfoImg.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+#modalZayavka .checkInfo .checkInfoText,
+.onlineCart .checkInfo .checkInfoText,
+#sendReview .checkInfo .checkInfoText,
+.onlineZayavka .checkInfo .checkInfoText {
+  padding-right: 20px;
+  font-size: 14px;
+  color: #444;
+}
+UL.breadcrumb {
+  padding: 0;
+  margin: 35px 0 0;
+  text-align: left;
+  background-color: transparent !important;
+  border: 0;
+}
+UL.breadcrumb LI a {
+  font-size: 16px !important;
+  color: #64b5ee !important;
+}
+UL.breadcrumb LI.active {
+  color: #7f7f7f;
+  font-size: 16px;
+}
+UL.breadcrumb LI.active a {
+  text-decoration: none;
+}
+UL.breadcrumb LI.listBC a {
+  text-decoration: none;
+}
+UL.breadcrumb LI.thisPageBC a {
+  color: #4d4d4d !important;
+}
+UL.breadcrumb LI + LI:before {
+  content: none !important;
+}
+UL.breadcrumb .divider IMG {
+  vertical-align: baseline;
+}
+.menuHeader {
+  margin: 10px 0px 40px;
+}
+.menuHeader .navbar-default {
+  min-height: auto;
+  margin: 0;
+}
+.menuHeader .navbar-default .navbar-toggle {
+  border-width: 0px;
+}
+.menuHeader .navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+  width: 23px;
+  height: 3px;
+  margin: 4px 2px 0px;
+}
+.menuHeader .navbar-default .navbar-toggle:focus,
+.menuHeader .navbar-default .navbar-toggle:hover {
+  background-color: #64b5ee;
+}
+.menuHeader .navbar-default .navbar-toggle:focus .icon-bar,
+.menuHeader .navbar-default .navbar-toggle:hover .icon-bar {
+  width: 27px;
+  margin: 4px 0px 0px;
+}
+.menuHeader .navbar-default .navbar-collapse {
+  padding: 0;
+  border-top-color: transparent;
+}
+.menuHeader .navbar-default .navbar-collapse .nav {
+  display: table;
+  padding: 0;
+}
+.menuHeader .navbar-default .navbar-collapse .nav .deeper .dropdown-menu {
+  display: none;
+  padding: 0;
+  margin: 0;
+  min-width: 300px;
+  border: 0;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background: transparent;
+  background-image: url("https://www.marine-supercargo.com/templates/marinesupercargo/images/background/menu-deeper-rect.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.menuHeader .navbar-default .navbar-collapse .nav .deeper .dropdown-menu LI {
+  background: #fff;
+  width: 100%;
+  max-width: 100%;
+}
+.menuHeader .navbar-default .navbar-collapse .nav .deeper .dropdown-menu LI a {
+  padding: 12px 25px;
+  width: 100%;
+  min-width: 250px;
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: none;
+}
+.menuHeader .navbar-default .navbar-collapse .nav .deeper .dropdown-menu LI.active a {
+  background: #fff8f0;
+  color: #be7366;
+}
+.menuHeader .navbar-default .navbar-collapse .nav .deeper .dropdown-menu LI a:hover,
+.menuHeader .navbar-default .navbar-collapse .nav .deeper .dropdown-menu LI.active a:hover,
+.menuHeader .navbar-default .navbar-collapse .nav .deeper .dropdown-menu LI a:focus,
+.menuHeader .navbar-default .navbar-collapse .nav .deeper .dropdown-menu LI.active a:focus {
+  color: #de7366;
+  background: transparent;
+}
+.menuHeader .navbar-default .navbar-collapse .nav .deeper .dropdown-menu LI:first-child {
+  margin-top: 8px;
+  padding-top: 42px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.menuHeader .navbar-default .navbar-collapse .nav .deeper .dropdown-menu LI:last-child {
+  padding-bottom: 45px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.menuHeader .navbar-default .navbar-collapse .nav .deeper:hover .dropdown-menu {
+  display: block;
+  animation-name: menuChild;
+  animation-duration: 0.5s;
+  opacity: 1;
+}
+.menuHeader .navbar-default .navbar-collapse .nav LI {
+  border: 0;
+  border-radius: 0;
+  width: auto;
+  padding: 0;
+  font-family: PTbold, Arial, serif;
+  font-size: 18px;
+  text-align: center;
+}
+.menuHeader .navbar-default .navbar-collapse .nav LI a {
+  margin: 0;
+  border: 2 solid rgba(100, 181, 238, 0);
+  border-radius: 0;
+  color: #ffffff;
+  background: transparent;
+  text-transform: uppercase;
+  padding: 2px 0px;
+  display: inline;
+}
+.menuHeader .navbar-default .navbar-collapse .nav LI.active a {
+  background: transparent;
+  border-bottom: 2px solid #64b5ee;
+}
+.menuHeader .navbar-default .navbar-collapse .nav LI a:hover,
+.menuHeader .navbar-default .navbar-collapse .nav LI.active a:hover,
+.menuHeader .navbar-default .navbar-collapse .nav LI a:focus,
+.menuHeader .navbar-default .navbar-collapse .nav LI.active a:focus {
+  background: transparent;
+  border-bottom: 2px solid #64b5ee;
+}
+DIV.page-header {
+  margin: 0px 0px 15px;
+  border-bottom-style: none;
+}
+.gallery {
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+.gallery DIV.glr-h1 {
+  clear: both;
+  overflow: hidden;
+}
+.gallery .headerGallery {
+  padding-bottom: 40px;
+}
+.gallery .headerGallery H1 {
+  text-align: center;
+}
+.gallery .contentGallery {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  /*
+        IMG{
+            width: 250px;
+            height: 250px;
+            display: block;
+            margin: 0 auto;
+        }
+        */
+}
+.gallery .contentGallery .imgContGallery {
+  margin-bottom: 30px;
+}
+.gallery .contentGallery .imgContGallery A {
+  border-radius: 15px;
+  overflow: hidden;
+}
+.gallery .contentGallery .imgContGallery A .imageGal {
+  height: 230px !important;
+  width: 100% !important;
+  background-position: 50% !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+.gallery .contentGallery .imgContGallery A .imageGal SPAN {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.gallery .contentGallery .imgContGallery A:hover .imageGal SPAN {
+  background-color: rgba(0, 0, 0, 0.7);
+  background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/icons/gallery-image-hover.png);
+}
+.gallery .contentGallery .imgContGallery P {
+  text-align: center !important;
+  font-size: 14px !important;
+}
+.gallery .contentGallery .jg-footer {
+  clear: both;
+}
+.gallery .pagination {
+  width: 100%;
+}
+.gallery .pagination UL {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+.gallery .pagination UL li {
+  display: table-cell;
+}
+.gallery .pagination UL li SPAN,
+.gallery .pagination UL li a {
+  padding: 3px 7px;
+}
+.gallery .pagination UL LI.pagination-start A,
+.gallery .pagination UL LI.pagination-end A {
+  background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/icons/pagination.png);
+  background-repeat: no-repeat;
+}
+.gallery .pagination UL LI.pagination-start A {
+  background-position: center -100px;
+}
+.gallery .pagination UL LI.pagination-start A:hover {
+  background-position: center -150px;
+}
+.gallery .pagination UL LI.pagination-start SPAN {
+  display: none;
+}
+.gallery .pagination UL LI.pagination-end A {
+  background-position: center 0px;
+}
+.gallery .pagination UL LI.pagination-end A:hover {
+  background-position: center -50px;
+}
+.gallery .pagination UL LI.pagination-end SPAN {
+  display: none;
+}
+#TB_caption {
+  text-align: center;
+  font-size: 12px;
+  width: 100%;
+}
+#TB_secondLine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+#TB_secondLine #TB_prev,
+#TB_secondLine #TB_next {
+  position: absolute;
+  width: 50%;
+  top: 0;
+  height: 100%;
+  vertical-align: middle;
+  cursor: pointer;
+}
+#TB_secondLine #TB_prev a,
+#TB_secondLine #TB_next a {
+  position: absolute;
+  top: 30%;
+  background: #666;
+  color: #ccc;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+#TB_secondLine #TB_prev a:hover,
+#TB_secondLine #TB_next a:hover {
+  background: #000;
+  color: #fff;
+}
+#TB_secondLine #TB_prev:hover a,
+#TB_secondLine #TB_next:hover a {
+  background: #000;
+  color: #fff;
+}
+#TB_secondLine #TB_prev {
+  left: 0;
+}
+#TB_secondLine #TB_prev a {
+  left: 0;
+  border-radius: 0 15px 15px 0;
+}
+#TB_secondLine #TB_next {
+  right: 0;
+}
+#TB_secondLine #TB_next a {
+  right: 0;
+  border-radius: 15px 0 0 15px;
+}
+#TB_closeWindow {
+  position: absolute;
+  top: -40px;
+  right: -15px;
+  font-size: 12px;
+  color: #ccc;
+  background: rgba(255, 57, 175, 0.31);
+  height: 30px;
+  border-radius: 5px;
+}
+#TB_closeWindow a {
+  color: #80f2ff !important;
+  padding: 5px 20px;
+  font-family: PTregular, Arial, serif;
+  font-size: 12px;
+}
+#TB_closeWindow a:hover {
+  color: #22fb21 !important;
+}
+.productfull,
+.headerCatJoomShop,
+.tovarsCatJoomShop,
+.pageCatJoomShoping,
+.pageBlogLearn,
+.pageBlogReview {
+  padding: 0 0 50px;
+}
+.productfull H1,
+.headerCatJoomShop H1,
+.tovarsCatJoomShop H1,
+.pageCatJoomShoping H1,
+.pageBlogLearn H1,
+.pageBlogReview H1 {
+  padding: 30px 0 30px;
+  margin: 0;
+  font-size: 60px;
+  color: #404040;
+  text-align: center;
+}
+.productfull INPUT,
+.headerCatJoomShop INPUT,
+.tovarsCatJoomShop INPUT,
+.pageCatJoomShoping INPUT,
+.pageBlogLearn INPUT,
+.pageBlogReview INPUT,
+.productfull SELECT,
+.headerCatJoomShop SELECT,
+.tovarsCatJoomShop SELECT,
+.pageCatJoomShoping SELECT,
+.pageBlogLearn SELECT,
+.pageBlogReview SELECT {
+  padding: 0 5px;
+  margin: 0;
+  height: 25px;
+  width: 100% !important;
+  font-size: 14px;
+  color: #4d4d4d;
+  text-align: center;
+  box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+}
+.productfull .page_tov,
+.headerCatJoomShop .page_tov,
+.tovarsCatJoomShop .page_tov,
+.pageCatJoomShoping .page_tov,
+.pageBlogLearn .page_tov,
+.pageBlogReview .page_tov {
+  padding-top: 50px;
+}
+.productfull .page_tov .imgPrev .ownerImgTov,
+.headerCatJoomShop .page_tov .imgPrev .ownerImgTov,
+.tovarsCatJoomShop .page_tov .imgPrev .ownerImgTov,
+.pageCatJoomShoping .page_tov .imgPrev .ownerImgTov,
+.pageBlogLearn .page_tov .imgPrev .ownerImgTov,
+.pageBlogReview .page_tov .imgPrev .ownerImgTov {
+  border: 1px solid #e9e9e9;
+  border-radius: 4px;
+  box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.productfull .page_tov .imgPrev .ownerImgTov #main_image,
+.headerCatJoomShop .page_tov .imgPrev .ownerImgTov #main_image,
+.tovarsCatJoomShop .page_tov .imgPrev .ownerImgTov #main_image,
+.pageCatJoomShoping .page_tov .imgPrev .ownerImgTov #main_image,
+.pageBlogLearn .page_tov .imgPrev .ownerImgTov #main_image,
+.pageBlogReview .page_tov .imgPrev .ownerImgTov #main_image {
+  height: 375px;
+  width: 100%;
+  background-position: 50%;
+  background-size: cover;
+}
+.productfull .page_tov .productAssign H3,
+.headerCatJoomShop .page_tov .productAssign H3,
+.tovarsCatJoomShop .page_tov .productAssign H3,
+.pageCatJoomShoping .page_tov .productAssign H3,
+.pageBlogLearn .page_tov .productAssign H3,
+.pageBlogReview .page_tov .productAssign H3 {
+  margin: 0;
+  padding: 0 0 25px;
+  font-size: 18px;
+  color: #404040;
+}
+.productfull .page_tov .productAssign .prod_buttons,
+.headerCatJoomShop .page_tov .productAssign .prod_buttons,
+.tovarsCatJoomShop .page_tov .productAssign .prod_buttons,
+.pageCatJoomShoping .page_tov .productAssign .prod_buttons,
+.pageBlogLearn .page_tov .productAssign .prod_buttons,
+.pageBlogReview .page_tov .productAssign .prod_buttons {
+  margin: 0;
+  padding: 0 0 18px;
+  display: inline-table;
+  width: 100%;
+}
+.productfull .page_tov .productAssign .prod_buttons .prod_qty,
+.headerCatJoomShop .page_tov .productAssign .prod_buttons .prod_qty,
+.tovarsCatJoomShop .page_tov .productAssign .prod_buttons .prod_qty,
+.pageCatJoomShoping .page_tov .productAssign .prod_buttons .prod_qty,
+.pageBlogLearn .page_tov .productAssign .prod_buttons .prod_qty,
+.pageBlogReview .page_tov .productAssign .prod_buttons .prod_qty,
+.productfull .page_tov .productAssign .prod_buttons .prod_qty_input,
+.headerCatJoomShop .page_tov .productAssign .prod_buttons .prod_qty_input,
+.tovarsCatJoomShop .page_tov .productAssign .prod_buttons .prod_qty_input,
+.pageCatJoomShoping .page_tov .productAssign .prod_buttons .prod_qty_input,
+.pageBlogLearn .page_tov .productAssign .prod_buttons .prod_qty_input,
+.pageBlogReview .page_tov .productAssign .prod_buttons .prod_qty_input {
+  display: table-cell;
+  width: 50%;
+}
+.productfull .page_tov .productAssign .prod_buttons .prod_qty_input,
+.headerCatJoomShop .page_tov .productAssign .prod_buttons .prod_qty_input,
+.tovarsCatJoomShop .page_tov .productAssign .prod_buttons .prod_qty_input,
+.pageCatJoomShoping .page_tov .productAssign .prod_buttons .prod_qty_input,
+.pageBlogLearn .page_tov .productAssign .prod_buttons .prod_qty_input,
+.pageBlogReview .page_tov .productAssign .prod_buttons .prod_qty_input {
+  padding: 0;
+  margin: 0;
+}
+.productfull .page_tov .productAssign .prod_buttons .prod_qty_input INPUT,
+.headerCatJoomShop .page_tov .productAssign .prod_buttons .prod_qty_input INPUT,
+.tovarsCatJoomShop .page_tov .productAssign .prod_buttons .prod_qty_input INPUT,
+.pageCatJoomShoping .page_tov .productAssign .prod_buttons .prod_qty_input INPUT,
+.pageBlogLearn .page_tov .productAssign .prod_buttons .prod_qty_input INPUT,
+.pageBlogReview .page_tov .productAssign .prod_buttons .prod_qty_input INPUT {
+  padding: 0;
+  margin: 0;
+}
+.productfull .page_tov .productAssign .staticInfoTov,
+.headerCatJoomShop .page_tov .productAssign .staticInfoTov,
+.tovarsCatJoomShop .page_tov .productAssign .staticInfoTov,
+.pageCatJoomShoping .page_tov .productAssign .staticInfoTov,
+.pageBlogLearn .page_tov .productAssign .staticInfoTov,
+.pageBlogReview .page_tov .productAssign .staticInfoTov {
+  margin-top: 54px;
+}
+.productfull .page_tov .productAssign .staticInfoTov .rowTableInfoTov,
+.headerCatJoomShop .page_tov .productAssign .staticInfoTov .rowTableInfoTov,
+.tovarsCatJoomShop .page_tov .productAssign .staticInfoTov .rowTableInfoTov,
+.pageCatJoomShoping .page_tov .productAssign .staticInfoTov .rowTableInfoTov,
+.pageBlogLearn .page_tov .productAssign .staticInfoTov .rowTableInfoTov,
+.pageBlogReview .page_tov .productAssign .staticInfoTov .rowTableInfoTov {
+  display: table;
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.productfull .page_tov .productAssign .staticInfoTov .rowTableInfoTov .cellTableInfoTov,
+.headerCatJoomShop .page_tov .productAssign .staticInfoTov .rowTableInfoTov .cellTableInfoTov,
+.tovarsCatJoomShop .page_tov .productAssign .staticInfoTov .rowTableInfoTov .cellTableInfoTov,
+.pageCatJoomShoping .page_tov .productAssign .staticInfoTov .rowTableInfoTov .cellTableInfoTov,
+.pageBlogLearn .page_tov .productAssign .staticInfoTov .rowTableInfoTov .cellTableInfoTov,
+.pageBlogReview .page_tov .productAssign .staticInfoTov .rowTableInfoTov .cellTableInfoTov {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+  font-size: 14px;
+  color: #4d4d4d;
+  text-align: left;
+}
+.productfull .page_tov .productAssign .jshop_prod_attributes .row-fluid,
+.headerCatJoomShop .page_tov .productAssign .jshop_prod_attributes .row-fluid,
+.tovarsCatJoomShop .page_tov .productAssign .jshop_prod_attributes .row-fluid,
+.pageCatJoomShoping .page_tov .productAssign .jshop_prod_attributes .row-fluid,
+.pageBlogLearn .page_tov .productAssign .jshop_prod_attributes .row-fluid,
+.pageBlogReview .page_tov .productAssign .jshop_prod_attributes .row-fluid {
+  padding: 0 0 18px;
+  display: inline-table;
+}
+.productfull .page_tov .productAssign .jshop_prod_attributes .row-fluid .attributes_title,
+.headerCatJoomShop .page_tov .productAssign .jshop_prod_attributes .row-fluid .attributes_title,
+.tovarsCatJoomShop .page_tov .productAssign .jshop_prod_attributes .row-fluid .attributes_title,
+.pageCatJoomShoping .page_tov .productAssign .jshop_prod_attributes .row-fluid .attributes_title,
+.pageBlogLearn .page_tov .productAssign .jshop_prod_attributes .row-fluid .attributes_title,
+.pageBlogReview .page_tov .productAssign .jshop_prod_attributes .row-fluid .attributes_title,
+.productfull .page_tov .productAssign .jshop_prod_attributes .row-fluid .insertDataProd,
+.headerCatJoomShop .page_tov .productAssign .jshop_prod_attributes .row-fluid .insertDataProd,
+.tovarsCatJoomShop .page_tov .productAssign .jshop_prod_attributes .row-fluid .insertDataProd,
+.pageCatJoomShoping .page_tov .productAssign .jshop_prod_attributes .row-fluid .insertDataProd,
+.pageBlogLearn .page_tov .productAssign .jshop_prod_attributes .row-fluid .insertDataProd,
+.pageBlogReview .page_tov .productAssign .jshop_prod_attributes .row-fluid .insertDataProd {
+  margin: 0;
+  padding: 0;
+  display: table-cell;
+  width: 50%;
+}
+.productfull .page_tov .productAssign .jshop_prod_attributes .row-fluid .prod_attr_img,
+.headerCatJoomShop .page_tov .productAssign .jshop_prod_attributes .row-fluid .prod_attr_img,
+.tovarsCatJoomShop .page_tov .productAssign .jshop_prod_attributes .row-fluid .prod_attr_img,
+.pageCatJoomShoping .page_tov .productAssign .jshop_prod_attributes .row-fluid .prod_attr_img,
+.pageBlogLearn .page_tov .productAssign .jshop_prod_attributes .row-fluid .prod_attr_img,
+.pageBlogReview .page_tov .productAssign .jshop_prod_attributes .row-fluid .prod_attr_img {
+  display: none;
+}
+.productfull .page_tov .bayBroduct,
+.headerCatJoomShop .page_tov .bayBroduct,
+.tovarsCatJoomShop .page_tov .bayBroduct,
+.pageCatJoomShoping .page_tov .bayBroduct,
+.pageBlogLearn .page_tov .bayBroduct,
+.pageBlogReview .page_tov .bayBroduct {
+  padding: 20px 0 0;
+}
+.productfull .page_tov .bayBroduct .priceBlock,
+.headerCatJoomShop .page_tov .bayBroduct .priceBlock,
+.tovarsCatJoomShop .page_tov .bayBroduct .priceBlock,
+.pageCatJoomShoping .page_tov .bayBroduct .priceBlock,
+.pageBlogLearn .page_tov .bayBroduct .priceBlock,
+.pageBlogReview .page_tov .bayBroduct .priceBlock {
+  padding-bottom: 10px;
+}
+.productfull .page_tov .bayBroduct .priceBlock .prod_price #block_price_show,
+.headerCatJoomShop .page_tov .bayBroduct .priceBlock .prod_price #block_price_show,
+.tovarsCatJoomShop .page_tov .bayBroduct .priceBlock .prod_price #block_price_show,
+.pageCatJoomShoping .page_tov .bayBroduct .priceBlock .prod_price #block_price_show,
+.pageBlogLearn .page_tov .bayBroduct .priceBlock .prod_price #block_price_show,
+.pageBlogReview .page_tov .bayBroduct .priceBlock .prod_price #block_price_show {
+  font-size: 30px;
+  line-height: 25px;
+  color: #be7366;
+}
+.productfull .page_tov .bayBroduct .priceBlock .sRu,
+.headerCatJoomShop .page_tov .bayBroduct .priceBlock .sRu,
+.tovarsCatJoomShop .page_tov .bayBroduct .priceBlock .sRu,
+.pageCatJoomShoping .page_tov .bayBroduct .priceBlock .sRu,
+.pageBlogLearn .page_tov .bayBroduct .priceBlock .sRu,
+.pageBlogReview .page_tov .bayBroduct .priceBlock .sRu {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 25px;
+  color: #be7366;
+}
+.productfull .page_tov .bayBroduct .priceLearn .old_price P,
+.headerCatJoomShop .page_tov .bayBroduct .priceLearn .old_price P,
+.tovarsCatJoomShop .page_tov .bayBroduct .priceLearn .old_price P,
+.pageCatJoomShoping .page_tov .bayBroduct .priceLearn .old_price P,
+.pageBlogLearn .page_tov .bayBroduct .priceLearn .old_price P,
+.pageBlogReview .page_tov .bayBroduct .priceLearn .old_price P {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 10px;
+  color: #999999;
+}
+.productfull .page_tov .bayBroduct .priceLearn .old_price .newPrice,
+.headerCatJoomShop .page_tov .bayBroduct .priceLearn .old_price .newPrice,
+.tovarsCatJoomShop .page_tov .bayBroduct .priceLearn .old_price .newPrice,
+.pageCatJoomShoping .page_tov .bayBroduct .priceLearn .old_price .newPrice,
+.pageBlogLearn .page_tov .bayBroduct .priceLearn .old_price .newPrice,
+.pageBlogReview .page_tov .bayBroduct .priceLearn .old_price .newPrice {
+  font-size: 18px;
+  text-decoration: line-through;
+}
+.productfull .page_tov .bayBroduct .priceLearn .old_price #old_price,
+.headerCatJoomShop .page_tov .bayBroduct .priceLearn .old_price #old_price,
+.tovarsCatJoomShop .page_tov .bayBroduct .priceLearn .old_price #old_price,
+.pageCatJoomShoping .page_tov .bayBroduct .priceLearn .old_price #old_price,
+.pageBlogLearn .page_tov .bayBroduct .priceLearn .old_price #old_price,
+.pageBlogReview .page_tov .bayBroduct .priceLearn .old_price #old_price {
+  padding-left: 8px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #f28a87;
+  text-decoration: none;
+}
+.productfull .page_tov .bayBroduct .priceLearn .sRu,
+.headerCatJoomShop .page_tov .bayBroduct .priceLearn .sRu,
+.tovarsCatJoomShop .page_tov .bayBroduct .priceLearn .sRu,
+.pageCatJoomShoping .page_tov .bayBroduct .priceLearn .sRu,
+.pageBlogLearn .page_tov .bayBroduct .priceLearn .sRu,
+.pageBlogReview .page_tov .bayBroduct .priceLearn .sRu {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #f28a87;
+  text-decoration: none;
+}
+.productfull .page_tov .bayBroduct .buttons,
+.headerCatJoomShop .page_tov .bayBroduct .buttons,
+.tovarsCatJoomShop .page_tov .bayBroduct .buttons,
+.pageCatJoomShoping .page_tov .bayBroduct .buttons,
+.pageBlogLearn .page_tov .bayBroduct .buttons,
+.pageBlogReview .page_tov .bayBroduct .buttons {
+  margin-top: 10px;
+  width: 100%;
+}
+.productfull .page_tov .bayBroduct .buttons INPUT,
+.headerCatJoomShop .page_tov .bayBroduct .buttons INPUT,
+.tovarsCatJoomShop .page_tov .bayBroduct .buttons INPUT,
+.pageCatJoomShoping .page_tov .bayBroduct .buttons INPUT,
+.pageBlogLearn .page_tov .bayBroduct .buttons INPUT,
+.pageBlogReview .page_tov .bayBroduct .buttons INPUT {
+  height: 49px;
+  width: 100% !important;
+  max-width: 200px;
+  background: linear-gradient(to bottom, #fe9e9e, #f28a87);
+  border: 0;
+  border-color: transparent;
+  border-radius: 25px;
+  box-shadow: inset 0 -3px 6px rgba(0, 0, 0, 0.15), 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+.productfull .page_tov .bayBroduct .buttons INPUT:hover,
+.headerCatJoomShop .page_tov .bayBroduct .buttons INPUT:hover,
+.tovarsCatJoomShop .page_tov .bayBroduct .buttons INPUT:hover,
+.pageCatJoomShoping .page_tov .bayBroduct .buttons INPUT:hover,
+.pageBlogLearn .page_tov .bayBroduct .buttons INPUT:hover,
+.pageBlogReview .page_tov .bayBroduct .buttons INPUT:hover,
+.productfull .page_tov .bayBroduct .buttons INPUT:focus,
+.headerCatJoomShop .page_tov .bayBroduct .buttons INPUT:focus,
+.tovarsCatJoomShop .page_tov .bayBroduct .buttons INPUT:focus,
+.pageCatJoomShoping .page_tov .bayBroduct .buttons INPUT:focus,
+.pageBlogLearn .page_tov .bayBroduct .buttons INPUT:focus,
+.pageBlogReview .page_tov .bayBroduct .buttons INPUT:focus {
+  background: linear-gradient(to bottom, #f28989, #fc6663);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.productfull .content_tov,
+.headerCatJoomShop .content_tov,
+.tovarsCatJoomShop .content_tov,
+.pageCatJoomShoping .content_tov,
+.pageBlogLearn .content_tov,
+.pageBlogReview .content_tov {
+  padding-top: 50px;
+}
+.productfull .content_tov .reviewTov H2,
+.headerCatJoomShop .content_tov .reviewTov H2,
+.tovarsCatJoomShop .content_tov .reviewTov H2,
+.pageCatJoomShoping .content_tov .reviewTov H2,
+.pageBlogLearn .content_tov .reviewTov H2,
+.pageBlogReview .content_tov .reviewTov H2 {
+  margin: 50px 0 30px;
+  font-size: 36px;
+  line-height: 48px;
+  color: #404040;
+}
+.productfull .content_tov .reviewTov H3,
+.headerCatJoomShop .content_tov .reviewTov H3,
+.tovarsCatJoomShop .content_tov .reviewTov H3,
+.pageCatJoomShoping .content_tov .reviewTov H3,
+.pageBlogLearn .content_tov .reviewTov H3,
+.pageBlogReview .content_tov .reviewTov H3 {
+  margin: 38px 0 15px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 30px;
+  color: #404040;
+}
+.productfull .content_tov .reviewTov a,
+.headerCatJoomShop .content_tov .reviewTov a,
+.tovarsCatJoomShop .content_tov .reviewTov a,
+.pageCatJoomShoping .content_tov .reviewTov a,
+.pageBlogLearn .content_tov .reviewTov a,
+.pageBlogReview .content_tov .reviewTov a {
+  font-size: 14px;
+  color: #be7366;
+  text-decoration: underline;
+}
+.productfull .content_tov .reviewTov a:hover,
+.headerCatJoomShop .content_tov .reviewTov a:hover,
+.tovarsCatJoomShop .content_tov .reviewTov a:hover,
+.pageCatJoomShoping .content_tov .reviewTov a:hover,
+.pageBlogLearn .content_tov .reviewTov a:hover,
+.pageBlogReview .content_tov .reviewTov a:hover {
+  color: #de7366;
+  text-decoration: none;
+}
+.productfull .content_tov .reviewTov P,
+.headerCatJoomShop .content_tov .reviewTov P,
+.tovarsCatJoomShop .content_tov .reviewTov P,
+.pageCatJoomShoping .content_tov .reviewTov P,
+.pageBlogLearn .content_tov .reviewTov P,
+.pageBlogReview .content_tov .reviewTov P {
+  font-size: 14px;
+  line-height: 28px;
+  color: #404040;
+}
+.productfull .content_tov .reviewTov TABLE,
+.headerCatJoomShop .content_tov .reviewTov TABLE,
+.tovarsCatJoomShop .content_tov .reviewTov TABLE,
+.pageCatJoomShoping .content_tov .reviewTov TABLE,
+.pageBlogLearn .content_tov .reviewTov TABLE,
+.pageBlogReview .content_tov .reviewTov TABLE {
+  width: 100%;
+}
+.productfull .content_tov .reviewTov TABLE TR TD,
+.headerCatJoomShop .content_tov .reviewTov TABLE TR TD,
+.tovarsCatJoomShop .content_tov .reviewTov TABLE TR TD,
+.pageCatJoomShoping .content_tov .reviewTov TABLE TR TD,
+.pageBlogLearn .content_tov .reviewTov TABLE TR TD,
+.pageBlogReview .content_tov .reviewTov TABLE TR TD {
+  padding: 10px 0 10px 25px !important;
+  font-size: 14px !important;
+  line-height: 28px !important;
+  color: #4d4d4d !important;
+}
+.productfull .content_tov .reviewTov TABLE TR:first-child,
+.headerCatJoomShop .content_tov .reviewTov TABLE TR:first-child,
+.tovarsCatJoomShop .content_tov .reviewTov TABLE TR:first-child,
+.pageCatJoomShoping .content_tov .reviewTov TABLE TR:first-child,
+.pageBlogLearn .content_tov .reviewTov TABLE TR:first-child,
+.pageBlogReview .content_tov .reviewTov TABLE TR:first-child {
+  background: #be7366 !important;
+}
+.productfull .content_tov .reviewTov TABLE TR:first-child TD,
+.headerCatJoomShop .content_tov .reviewTov TABLE TR:first-child TD,
+.tovarsCatJoomShop .content_tov .reviewTov TABLE TR:first-child TD,
+.pageCatJoomShoping .content_tov .reviewTov TABLE TR:first-child TD,
+.pageBlogLearn .content_tov .reviewTov TABLE TR:first-child TD,
+.pageBlogReview .content_tov .reviewTov TABLE TR:first-child TD {
+  font-size: 14px !important;
+  line-height: 28px !important;
+  color: #fff !important;
+}
+.productfull .content_tov .reviewTov STRONG,
+.headerCatJoomShop .content_tov .reviewTov STRONG,
+.tovarsCatJoomShop .content_tov .reviewTov STRONG,
+.pageCatJoomShoping .content_tov .reviewTov STRONG,
+.pageBlogLearn .content_tov .reviewTov STRONG,
+.pageBlogReview .content_tov .reviewTov STRONG {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #4d4d4d;
+}
+.tovarsCatJoomShop {
+  padding: 50px 0;
+}
+.tovarsCatJoomShop .tovarPersons .styleTovarPersons {
+  margin-top: 25px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 368px;
+  max-width: 220px;
+  border: 1px solid #e9e9e9;
+  border-radius: 4px;
+  box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+}
+.tovarsCatJoomShop .tovarPersons .styleTovarPersons .imgTovarPersons {
+  position: relative;
+  border-bottom: 1px solid #e9e9e9;
+  width: 100%;
+  height: 212px;
+  background-position: 50%;
+  background-size: cover;
+}
+.tovarsCatJoomShop .tovarPersons .styleTovarPersons .imgTovarPersons .priceFull {
+  position: absolute;
+  left: 0;
+  top: 165px;
+  height: 36px;
+  width: 95px;
+  background-image: url("https://www.marine-supercargo.com/templates/marinesupercargo/images/background/shop/price_marker.png");
+  font-family: PTregular, Arial, serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #fff;
+  text-align: center;
+}
+.tovarsCatJoomShop .tovarPersons .styleTovarPersons .textTovarPersons {
+  padding: 22px 13px 0;
+  height: 85px;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 22px;
+  color: #404040;
+}
+.tovarsCatJoomShop .tovarPersons .styleTovarPersons .goTovar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 22px;
+}
+.tovarsCatJoomShop .tovarPersons .styleTovarPersons .goTovar .btn-success {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 165px;
+  display: block;
+}
+.tovarsCatJoomShop .tovarPersons .styleTovarPersons:hover,
+.tovarsCatJoomShop .tovarPersons .styleTovarPersons:focus {
+  box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+DIV.big-over {
+  position: relative;
+  top: 0px;
+  z-index: 50;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+DIV.swiper-container-header {
+  overflow: hidden;
+  width: 100%;
+  background-color: #162634;
+  position: absolute;
+  height: 100%;
+}
+DIV.swiper-container-header DIV.swiper-wrapper IMG {
+  width: 100%;
+}
+DIV.swiper-container-header DIV.swiper-wrapper DIV {
+  width: 100%;
+  background-size: cover;
+}
+DIV.swiper-container-header DIV.swiper-pagination-header {
+  height: 20px;
+  position: relative;
+  z-index: 20;
+}
+DIV.swiper-pagination-header {
+  background-color: #f00;
+}
+DIV.owner {
+  position: relative;
+  z-index: 2;
+}
+DIV.title {
+  font-size: 38px;
+  font-family: PTbold, Arial, serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 30px 0px 60px;
+  line-height: 38px;
+  clear: both;
+}
+DIV.header-block,
+DIV.header-block.lindex {
+  background-color: #14202b;
+  background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/1920-header.jpg);
+  background-size: cover;
+}
+DIV.header-block A.logo,
+DIV.header-block.lindex A.logo {
+  padding: 15px 0px;
+  text-align: center;
+}
+DIV.header-block DIV.email,
+DIV.header-block.lindex DIV.email {
+  padding-top: 65px;
+}
+DIV.header-block DIV.email A,
+DIV.header-block.lindex DIV.email A {
+  color: #fff;
+  font-size: 18px;
+}
+DIV.header-block DIV.language,
+DIV.header-block.lindex DIV.language {
+  padding-top: 55px;
+}
+DIV.header-block DIV.language UL.lang-block,
+DIV.header-block.lindex DIV.language UL.lang-block {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  width: 100px;
+  float: right;
+  height: 50px;
+  overflow: hidden;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+DIV.header-block DIV.language UL.lang-block LI,
+DIV.header-block.lindex DIV.language UL.lang-block LI {
+  line-height: 40px;
+}
+DIV.header-block DIV.language UL.lang-block LI A,
+DIV.header-block.lindex DIV.language UL.lang-block LI A,
+DIV.header-block DIV.language UL.lang-block LI SPAN,
+DIV.header-block.lindex DIV.language UL.lang-block LI SPAN {
+  color: #ffffff;
+  font-size: 18px;
+  display: block;
+}
+DIV.header-block DIV.language UL.lang-block LI.lang-active,
+DIV.header-block.lindex DIV.language UL.lang-block LI.lang-active {
+  background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/icons/lang.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+DIV.header-block DIV.language UL.lang-block:hover,
+DIV.header-block.lindex DIV.language UL.lang-block:hover {
+  height: auto;
+}
+DIV.header-block DIV.header-title,
+DIV.header-block.lindex DIV.header-title {
+  color: #ffffff;
+  font-family: PTbold, Arial, serif;
+  font-size: 68px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 83px;
+  margin-bottom: 10px;
+  clear: both;
+}
+DIV.header-block DIV.header-title SPAN,
+DIV.header-block.lindex DIV.header-title SPAN {
+  color: #64b5ee;
+  font-family: PTbold, Arial, serif;
+}
+DIV.header-block DIV.header-desc,
+DIV.header-block.lindex DIV.header-desc {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  clear: both;
+}
+DIV.header-block DIV.header-utp,
+DIV.header-block.lindex DIV.header-utp {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+DIV.header-block DIV.header-utp DIV,
+DIV.header-block.lindex DIV.header-utp DIV {
+  width: 60px;
+  height: 70px;
+  background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/icons/header-utp.png);
+  clear: both;
+  margin: 0px auto;
+}
+DIV.header-block DIV.header-utp DIV.utp-1,
+DIV.header-block.lindex DIV.header-utp DIV.utp-1 {
+  background-position: 0px 0px;
+}
+DIV.header-block DIV.header-utp DIV.utp-2,
+DIV.header-block.lindex DIV.header-utp DIV.utp-2 {
+  background-position: -60px 0px;
+}
+DIV.header-block DIV.header-utp DIV.utp-3,
+DIV.header-block.lindex DIV.header-utp DIV.utp-3 {
+  background-position: -120px 0px;
+}
+DIV.header-block.lindex {
+  background-color: transparent;
+  background-image: none;
+  position: relative;
+  min-height: 1000px;
+  padding-bottom: 80px;
+}
+DIV.header-block.lindex DIV.menuHeader {
+  margin-bottom: 150px;
+}
+DIV.big-block {
+  background-color: #6fb7e9;
+  background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/1920-big.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+DIV.big-block DIV.bigmenu {
+  position: relative;
+  z-index: 2;
+  top: -50px;
+  margin-bottom: -40px;
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+DIV.big-block DIV.bigmenu DIV.item-block {
+  background-color: #000;
+  margin-bottom: 25px;
+  display: block;
+  border-radius: 15px;
+  overflow: hidden;
+  background-size: cover;
+}
+DIV.big-block DIV.bigmenu DIV.item-block A {
+  display: block;
+  height: 357px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 10px;
+}
+DIV.big-block DIV.bigmenu DIV.item-block A SPAN.brdr {
+  display: block;
+  height: 100%;
+  padding-top: 90px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+DIV.big-block DIV.bigmenu DIV.item-block A SPAN.brdr HR {
+  width: 30px;
+  margin: 20px auto;
+  border: 0px;
+  border-bottom: 1px solid #64b5ee;
+}
+DIV.big-block DIV.bigmenu DIV.item-block A SPAN.brdr SPAN.textLinkBlock {
+  color: #64b5ee;
+  font-family: PTbold, Arial, serif;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+DIV.big-block DIV.bigmenu DIV.item-block A SPAN.brdr SPAN.item-note {
+  color: #ffffff;
+  font-size: 18px;
+  display: block;
+  clear: both;
+  max-width: 370px;
+  margin: 0px auto;
+  height: 77px;
+  overflow: hidden;
+}
+DIV.big-block DIV.bigmenu DIV.item-block A SPAN.brdr SPAN.readmore-link {
+  background-color: #64b5ee;
+  color: #ffffff;
+  border-radius: 10px;
+  text-transform: uppercase;
+  display: block;
+  clear: both;
+  width: 230px;
+  height: 0px;
+  line-height: 60px;
+  margin: 30px auto 0px;
+  overflow: hidden;
+}
+DIV.big-block DIV.bigmenu DIV.item-block A:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+DIV.big-block DIV.bigmenu DIV.item-block A:hover SPAN.brdr {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding-top: 50px;
+}
+DIV.big-block DIV.bigmenu DIV.item-block A:hover SPAN.brdr SPAN.textLinkBlock {
+  color: #ffffff;
+}
+DIV.big-block DIV.bigmenu DIV.item-block A:hover SPAN.brdr SPAN.readmore-link {
+  height: 60px;
+}
+DIV.big-block DIV.bigmenu DIV.item-block A:hover SPAN.brdr SPAN.readmore-link:hover {
+  background-color: #ffffff;
+  color: #64b5ee;
+}
+DIV.news-block {
+  background-color: #141414;
+  padding-bottom: 40px;
+  background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/1920-index-news.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+DIV.news-block DIV.title {
+  color: #64b5ee;
+  margin: 40px 0px 30px;
+}
+DIV.utp-block {
+  background-color: #6fb7e9;
+  background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/1920-actual.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 30px 0px;
+}
+DIV.utp-block DIV.title {
+  color: #ffffff;
+}
+DIV.utp-block DIV.utp-items {
+  margin-bottom: 30px;
+}
+DIV.utp-block DIV.utp-items DIV.utp-item {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  height: 333px;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 40px;
+  text-align: center;
+}
+DIV.utp-block DIV.utp-items DIV.utp-item DIV {
+  width: 130px;
+  height: 150px;
+  background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/icons/utp-block.png);
+  margin: 0px auto;
+  margin-bottom: 20px;
+}
+DIV.utp-block DIV.utp-items DIV.utp-item DIV.utp-1 {
+  background-position: 0px 0px;
+}
+DIV.utp-block DIV.utp-items DIV.utp-item DIV.utp-2 {
+  background-position: -130px 0px;
+}
+DIV.utp-block DIV.utp-items DIV.utp-item DIV.utp-3 {
+  background-position: -260px 0px;
+}
+DIV.utp-block DIV.utp-items DIV.utp-item DIV.utp-4 {
+  background-position: -390px 0px;
+}
+DIV.footermenu {
+  background-color: #64b5ee;
+  height: 164px;
+  margin-top: 50px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg {
+  height: 164px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar {
+  margin: 0px;
+  border: 0px transparent none;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav {
+  background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/1920-index-company.jpg);
+  background-position: bottom center;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A {
+  height: 164px;
+  background-color: #64b5ee;
+  background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/icons/footer-menu.png);
+  padding-top: 105px;
+  color: #ffffff;
+  font-family: PTbold, Arial, serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  min-width: 100px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A:hover {
+  background-color: rgba(100, 181, 238, 0.01);
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-index {
+  background-position: 50% 0px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-index:hover {
+  background-position: 50% -200px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-about {
+  background-position: 50% -400px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-about:hover {
+  background-position: 50% -600px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-supercargo {
+  background-position: 50% -800px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-supercargo:hover {
+  background-position: 50% -1000px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-service {
+  background-position: 50% -1200px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-service:hover {
+  background-position: 50% -1400px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-gallery {
+  background-position: 50% -1600px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-gallery:hover {
+  background-position: 50% -1800px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-partnership {
+  background-position: 50% -2000px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-partnership:hover {
+  background-position: 50% -2200px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-news {
+  background-position: 50% -2400px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-news:hover {
+  background-position: 50% -2600px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-contacts {
+  background-position: 50% -2800px;
+}
+DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav LI A.ft-contacts:hover {
+  background-position: 50% -3000px;
+}
+DIV.company-block {
+  background-color: #141414;
+  background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/1920-index-company.jpg);
+  background-position: bottom center;
+  padding: 60px 0px 0px;
+  background-repeat: no-repeat;
+}
+DIV.company-block DIV.title {
+  color: #64b5ee;
+}
+DIV.company-block DIV.logo-left {
+  padding-top: 70px;
+}
+DIV.company-block DIV.logo-left IMG {
+  max-width: 446px;
+  width: 100%;
+  height: auto;
+}
+DIV.company-block DIV.introtext P {
+  font-family: PTbold, Arial, serif;
+  font-size: 28px;
+  line-height: 36px;
+  color: #ffffff;
+}
+DIV.company-block DIV.fulltext P {
+  font-family: PTregular, Arial, serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #b1b1b1;
+}
+DIV.company-block DIV.readmore-separator {
+  width: 50%;
+  border-bottom: 1px solid #64b5ee;
+  margin: 35px 0px;
+}
+DIV.company-block DIV.introtext {
+  max-height: 350px;
+  overflow: hidden;
+}
+DIV.company-block DIV.fulltext {
+  max-height: 350px;
+  overflow: hidden;
+}
+DIV.footer-block {
+  background-color: #0f161b;
+  padding: 20px 0px;
+}
+DIV.footer-block DIV.footer-left {
+  color: #ffffff;
+  font-size: 26px;
+  padding: 10px;
+}
+DIV.footer-block DIV.footer-left SPAN {
+  font-size: 16px;
+}
+DIV.footer-block DIV.footer-dnage {
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+}
+DIV.footer-block DIV.footer-dnage IMG {
+  margin-bottom: 10px;
+}
+DIV.footer-block DIV.footer-dnage A {
+  color: #64b5ee;
+  text-decoration: none;
+}
+DIV.footer-block DIV.footer-dnage A:hover {
+  text-decoration: underline;
+}
+DIV.footer-block DIV.footer-phones {
+  text-align: right;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: PTbold, Arial, serif;
+  padding: 10px 0px;
+}
+DIV.maincontent {
+  min-height: 600px;
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+DIV.maincontent DIV.insides {
+  background-color: #64b5ee;
+  padding: 30px 0px;
+  background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/1920-insides.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 420px;
+}
+DIV.maincontent DIV.insides P {
+  color: #ffffff;
+}
+DIV.maincontent DIV.introtext P {
+  font-size: 18px;
+}
+.sliderJGD {
+  height: 360px;
+  position: static;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 0px;
+}
+.swiper-arrow-block {
+  overflow: hidden;
+  height: 360px;
+  padding: 0px;
+}
+.swiper-arrow-block .swiper-button-prev,
+.swiper-arrow-block .swiper-button-next {
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 60px;
+  background-image: none;
+  line-height: 55px;
+  text-align: center;
+  padding: 0px;
+  position: static;
+  margin: 140px auto 0px;
+}
+.swiper-arrow-block .swiper-button-prev:hover,
+.swiper-arrow-block .swiper-button-next:hover {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+/* ------------------------------------------------------------------------------------- Внутренние страницы ----------------------------------------------------------------------------- */
+DIV.blog_services {
+  display: block;
+  clear: both;
+  overflow: hidden;
+  float: left;
+  width: 100%;
+}
+DIV.blog_services DIV.item-block {
+  background-color: #000;
+  margin-bottom: 25px;
+  display: block;
+  border-radius: 15px;
+  overflow: hidden;
+  background-size: cover;
+}
+DIV.blog_services DIV.item-block A {
+  display: block;
+  height: 357px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 10px;
+}
+DIV.blog_services DIV.item-block A SPAN.brdr {
+  display: block;
+  height: 100%;
+  padding-top: 70px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+DIV.blog_services DIV.item-block A SPAN.brdr HR {
+  width: 30px;
+  margin: 20px auto;
+  border: 0px;
+  border-bottom: 1px solid #64b5ee;
+}
+DIV.blog_services DIV.item-block A SPAN.brdr SPAN.item-icons {
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0px auto;
+}
+DIV.blog_services DIV.item-block A SPAN.brdr SPAN.textLinkBlock {
+  color: #64b5ee;
+  font-family: PTbold, Arial, serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  width: 90%;
+  display: block;
+  margin: 0px auto;
+}
+DIV.blog_services DIV.item-block A SPAN.brdr SPAN.item-note {
+  color: #ffffff;
+  font-size: 18px;
+  display: block;
+  clear: both;
+  max-width: 370px;
+  margin: 0px auto;
+  height: 77px;
+  overflow: hidden;
+}
+DIV.blog_services DIV.item-block A SPAN.brdr SPAN.readmore-link {
+  background-color: #64b5ee;
+  color: #ffffff;
+  border-radius: 10px;
+  text-transform: uppercase;
+  display: block;
+  clear: both;
+  width: 230px;
+  height: 0px;
+  line-height: 60px;
+  margin: 30px auto 0px;
+  overflow: hidden;
+}
+DIV.blog_services DIV.item-block A:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+DIV.blog_services DIV.item-block A:hover SPAN.brdr {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding-top: 30px;
+}
+DIV.blog_services DIV.item-block A:hover SPAN.brdr SPAN.textLinkBlock {
+  color: #ffffff;
+}
+DIV.blog_services DIV.item-block A:hover SPAN.brdr SPAN.readmore-link {
+  height: 60px;
+}
+DIV.blog_services DIV.item-block A:hover SPAN.brdr SPAN.readmore-link:hover {
+  background-color: #ffffff;
+  color: #64b5ee;
+}
+DIV.blog_news {
+  display: block;
+  clear: both;
+  overflow: hidden;
+  float: left;
+  width: 100%;
+}
+DIV.blog_news DIV.item-block {
+  background-color: #000;
+  margin-bottom: 25px;
+  display: block;
+  border-radius: 15px;
+  overflow: hidden;
+  background-size: cover;
+}
+DIV.blog_news DIV.item-block A {
+  display: block;
+  height: 357px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 10px;
+}
+DIV.blog_news DIV.item-block A SPAN.brdr {
+  display: block;
+  height: 100%;
+  padding-top: 70px;
+  border-radius: 10px;
+}
+DIV.blog_news DIV.item-block A SPAN.brdr HR {
+  width: 30px;
+  margin: 20px auto;
+  border: 0px;
+  border-bottom: 1px solid #64b5ee;
+}
+DIV.blog_news DIV.item-block A SPAN.brdr SPAN.date,
+DIV.blog_news DIV.item-block A SPAN.brdr SPAN.time {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/icons/news-date-time.png);
+  background-repeat: no-repeat;
+  padding: 3px 10px 3px 25px;
+}
+DIV.blog_news DIV.item-block A SPAN.brdr SPAN.time {
+  background-position: 0px -50px;
+}
+DIV.blog_news DIV.item-block A SPAN.brdr SPAN.item-icons {
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0px auto;
+}
+DIV.blog_news DIV.item-block A SPAN.brdr SPAN.textLinkBlock {
+  color: #64b5ee;
+  font-family: PTbold, Arial, serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  width: 90%;
+  display: block;
+  margin: 10px auto 0px;
+}
+DIV.blog_news DIV.item-block A SPAN.brdr SPAN.textLinkBlock P {
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: none;
+  line-height: 18px;
+}
+DIV.blog_news DIV.item-block A SPAN.brdr SPAN.item-note {
+  color: #ffffff;
+  font-size: 18px;
+  display: block;
+  clear: both;
+  max-width: 370px;
+  margin: 0px auto;
+  height: 77px;
+  overflow: hidden;
+}
+DIV.blog_news DIV.item-block A SPAN.brdr SPAN.readmore-link {
+  background-color: #64b5ee;
+  color: #ffffff;
+  border-radius: 10px;
+  text-transform: uppercase;
+  display: block;
+  clear: both;
+  width: 230px;
+  height: 0px;
+  line-height: 60px;
+  margin: 30px auto 0px;
+  overflow: hidden;
+}
+DIV.blog_news DIV.item-block A:hover {
+  text-decoration: none;
+  background-color: rgba(47, 138, 202, 0.8);
+}
+DIV.blog_news DIV.item-block A:hover SPAN.brdr {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding-top: 30px;
+}
+DIV.blog_news DIV.item-block A:hover SPAN.brdr SPAN.date {
+  background-position: 0px -25px;
+}
+DIV.blog_news DIV.item-block A:hover SPAN.brdr SPAN.time {
+  background-position: 0px -75px;
+}
+DIV.blog_news DIV.item-block A:hover SPAN.brdr SPAN.textLinkBlock {
+  color: #ffffff;
+}
+DIV.blog_news DIV.item-block A:hover SPAN.brdr SPAN.readmore-link {
+  height: 60px;
+  background-color: #ffffff;
+  color: #2f8aca;
+}
+DIV.blog_news DIV.item-block A:hover SPAN.brdr SPAN.readmore-link:hover {
+  background-color: #ffffff;
+  color: #64b5ee;
+}
+/* ----------------------------- Охренеть, какие экраны! ------------------- */
+@media (min-width: 1921px) {
+  DIV.footermenu DIV.container DIV.footermenu-bg NAV.navbar UL.nav {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/3840-index-company.jpg);
+  }
+  DIV.header-block {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/3840-header.jpg);
+  }
+  DIV.big-block {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/3840-big.jpg);
+  }
+  DIV.news-block {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/3840-index-news.jpg);
+  }
+  DIV.company-block {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/3840-index-company.jpg);
+  }
+  DIV.utp-block {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/3840-actual.jpg);
+  }
+  DIV.maincontent DIV.insides {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/3840-insides.jpg);
+  }
+}
+/* ------------------------------------ Маленькие экраны ------------------------------ */
+@media (max-width: 991px) {
+  DIV.header-block {
+    height: auto;
+  }
+  .navbar-collapse .nav LI a {
+    font-size: 16px;
+  }
+  DIV.utp-block DIV.utp-items DIV.utp-item {
+    height: 270px;
+    padding: 20px;
+  }
+  DIV.footermenu {
+    display: none;
+  }
+  DIV.company-block {
+    padding-bottom: 60px;
+    background-size: cover;
+  }
+  DIV.maincontent DIV.insides DIV.introtext-block {
+    margin-top: 20px;
+  }
+}
+/* ---------------------------------- Телефончеги ------------------------ */
+@media (max-width: 768px) {
+  DIV.header-block DIV.email,
+  DIV.header-block.lindex DIV.email {
+    padding-top: 15px;
+    text-align: center;
+  }
+  DIV.header-block DIV.language,
+  DIV.header-block.lindex DIV.language {
+    padding-top: 15px;
+  }
+  DIV.header-block UL.nav LI A,
+  DIV.header-block.lindex UL.nav LI A {
+    line-height: 41px;
+  }
+  DIV.header-block DIV.header-title,
+  DIV.header-block.lindex DIV.header-title {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  DIV.header-block DIV.menuHeader,
+  DIV.header-block.lindex DIV.menuHeader {
+    margin-bottom: 30px;
+  }
+  DIV.header-block DIV.menuHeader .navbar-default,
+  DIV.header-block.lindex DIV.menuHeader .navbar-default {
+    background-color: rgba(0, 0, 0, 0.35);
+  }
+  DIV.header-block DIV.menuHeader .navbar-default .navbar-collapse .nav LI a,
+  DIV.header-block.lindex DIV.menuHeader .navbar-default .navbar-collapse .nav LI a {
+    font-size: 18px;
+  }
+  DIV.header-block {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/768-header.jpg);
+  }
+  DIV.big-block {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/768-big.jpg);
+  }
+  DIV.news-block {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/768-index-news.jpg);
+  }
+  DIV.utp-block {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/768-actual.jpg);
+  }
+  DIV.company-block {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/768-index-company.jpg);
+  }
+  DIV.footer-block DIV.footer-left {
+    text-align: center;
+  }
+  DIV.footer-block DIV.footer-phones {
+    text-align: center;
+  }
+  DIV.maincontent DIV.insides {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/768-insides.jpg);
+  }
+}
+/* ----------------------------------- Хреновые телефоны ------------------ */
+@media (max-width: 320px) {
+  DIV.header-block {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/320-header.jpg);
+  }
+  DIV.big-block {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/320-big.jpg);
+  }
+  DIV.news-block {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/320-index-news.jpg);
+  }
+  DIV.utp-block {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/320-actual.jpg);
+  }
+  DIV.company-block {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/320-index-company.jpg);
+  }
+  DIV.maincontent DIV.insides {
+    background-image: url(https://www.marine-supercargo.com/templates/marinesupercargo/images/bg/320-insides.jpg);
+  }
+}
+/*# sourceMappingURL=data:application/json,%7B%22version%22%3A3%2C%22sources%22%3A%5B%22https%3A%5C%2F%5C%2Fwww.marine-supercargo.com%5C%2Ftemplates%5C%2Fmarinesupercargo%5C%2Fless%5C%2Fmain.less%22%5D%2C%22names%22%3A%5B%5D%2C%22mappings%22%3A%22AAOA%3BAAAM%3BAAAK%3BAAAG%3BAAAI%3BAAAI%3BAAAI%3BAAAI%3BAAAI%3BAAAO%3BAAAI%3BAAAO%3BAAAU%3BAAAO%3BAAAQ%3BAAAQ%3BAAAI%3BAAAI%3BAAAI%3BAAAM%3BEACtG%2CoCAAA%3BEACE%2CuPAAA%3BEACA%2CoPAAA%3BEACA%2CkPAAA%3BEACA%2C%2BOAAA%3B%3BAAGH%3BEACI%2CoCAAA%3BEACA%3BEACA%3BEACA%3BEACH%3B%3BAALD%2CIAOI%3BEACI%3BEACA%3BEACA%2CoCAAA%3BEACA%3BEACA%3BEACA%3B%3BAAGR%3BAAAI%3BEACA%3B%3BAAGJ%3BEACI%3BEACA%3BEACA%2CcAAA%3BEACH%3BEACA%2CiCAAA%3BEACA%3BEACA%3BEACA%3B%3BAAED%3BEACI%3BEACA%3BEACA%3B%3BAAGJ%3BAAAI%3BAAAI%3BAAAI%3BEACX%3B%3BAAKD%3BEACI%3BEACH%3BEACA%3BEACG%3B%3BAAJJ%2CWAKI%3BEACF%3BEACA%2CqBAAA%3BEACM%3B%3BAARR%2CWAKI%2CGAII%3BEACI%3BEACT%3B%3BAAXH%2CWAKI%2CGAII%2CGAGI%3BAAZZ%2CWAKI%2CGAII%2CGAGU%3BEACF%3BEACZ%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CeAAA%3B%3BAArBJ%2CWAKI%2CGAII%2CGAcL%3BEACC%3BEACA%3B%3BAAzBJ%2CWAKI%2CGAII%2CGAkBL%2CEAAC%3BEACA%2CqBAAA%3B%3BAA5BJ%2CWAKI%2CGAII%2CGAqBL%3BEACC%2CqBAAA%3BEACA%2CyBAAA%3BEACA%2CcAAA%3B%3BAAjCJ%2CWAKI%2CGAgCF%2CGAAE%3BAArCJ%2CWAKI%2CGAgCkB%2CGAAE%3BEACrB%3B%3BAAKH%3BEACI%3B%3BAAMJ%2CIAGI%3BEACI%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2C%2BCAAA%3B%3BAAVR%2CIAYI%2CMAAK%3BAAZT%2CIAYiB%2CMAAK%3BEACd%2CiEAAA%3B%3BAAbR%2CIAeI%3BEACI%3BEACA%3B%3BAAGR%3BEACI%2CYAAY%2C4CAAZ%3BEACA%3BEACA%3BEACA%2C8EAAA%3BEACA%3BEACA%3BEACA%3B%3BAAPJ%2CYAQI%2CKAAI%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CsBAAsB%2CgGAAtB%3BEACA%3B%3BAAGR%2CYAAY%3BAAAQ%2CYAAY%3BEAC5B%2CYAAY%2C4CAAZ%3BEACA%2CwCAAA%3B%3BAAEJ%3BEACI%3B%3BAAIJ%2CMAAM%3BEACF%3B%3BAAEJ%2CaAAa%3BEACT%3B%3BAAEJ%2CiBAAiB%3BEACb%3B%3BAAEJ%2CYAAY%3BEACR%3B%3BAAEJ%2CWAAW%3BEACP%3B%3BAAEJ%2CUAAU%3BEACN%3B%3BAAEJ%2CkBAAkB%3BEACd%3B%3BAAGJ%3BAAAe%3BAAAa%3BAAAa%3BEACrC%2C8BAAA%3B%3BAADJ%2CaAEI%3BAAFW%2CWAEX%3BAAFwB%2CWAExB%3BAAFqC%2CcAErC%3BEACI%2CiBAAA%3BEACA%3B%3BAAJR%2CaAEI%2CcAGI%3BAALO%2CWAEX%2CcAGI%3BAALoB%2CWAExB%2CcAGI%3BAALiC%2CcAErC%2CcAGI%3BEACI%2CuBAAA%3BEACA%3BEACA%2CyCAAA%3B%3BAARZ%2CaAEI%2CcAGI%2CeAII%3BAATG%2CWAEX%2CcAGI%2CeAII%3BAATgB%2CWAExB%2CcAGI%2CeAII%3BAAT6B%2CcAErC%2CcAGI%2CeAII%3BEACI%3BEACA%3B%3BAAXhB%2CaAEI%2CcAGI%2CeAII%2CcAGI%3BAAZD%2CWAEX%2CcAGI%2CeAII%2CcAGI%3BAAZY%2CWAExB%2CcAGI%2CeAII%2CcAGI%3BAAZyB%2CcAErC%2CcAGI%2CeAII%2CcAGI%3BEACI%2CgBAAA%3BEACA%3BEACA%3BEACA%3B%3BAAhBpB%2CaAEI%2CcAGI%2CeAII%2CcASI%2COAAM%3BAAlBP%2CWAEX%2CcAGI%2CeAII%2CcASI%2COAAM%3BAAlBM%2CWAExB%2CcAGI%2CeAII%2CcASI%2COAAM%3BAAlBmB%2CcAErC%2CcAGI%2CeAII%2CcASI%2COAAM%3BEACF%3BEACA%3BEACA%3BEACA%3BEACA%2CaAAa%2CgBAAb%3BEACA%3BEACA%3B%3BAAzBpB%2CaAEI%2CcAGI%2CeAII%2CcAkBI%2COAAM%2CMAAM%3BAA3Bb%2CWAEX%2CcAGI%2CeAII%2CcAkBI%2COAAM%2CMAAM%3BAA3BA%2CWAExB%2CcAGI%2CeAII%2CcAkBI%2COAAM%2CMAAM%3BAA3Ba%2CcAErC%2CcAGI%2CeAII%2CcAkBI%2COAAM%2CMAAM%3BEACR%3B%3BAA5BpB%2CaAEI%2CcAGI%2CeA0BI%3BAA%5C%2FBG%2CWAEX%2CcAGI%2CeA0BI%3BAA%5C%2FBgB%2CWAExB%2CcAGI%2CeA0BI%3BAA%5C%2FB6B%2CcAErC%2CcAGI%2CeA0BI%3BEACI%3B%3BAAhChB%2CaAEI%2CcAGI%2CeA0BI%2CYAEI%3BAAjCD%2CWAEX%2CcAGI%2CeA0BI%2CYAEI%3BAAjCY%2CWAExB%2CcAGI%2CeA0BI%2CYAEI%3BAAjCyB%2CcAErC%2CcAGI%2CeA0BI%2CYAEI%3BEACI%3BEACA%3B%3BAAnCpB%2CaAEI%2CcAGI%2CeA0BI%2CYAEI%2CKAGI%3BAApCL%2CWAEX%2CcAGI%2CeA0BI%2CYAEI%2CKAGI%3BAApCQ%2CWAExB%2CcAGI%2CeA0BI%2CYAEI%2CKAGI%3BAApCqB%2CcAErC%2CcAGI%2CeA0BI%2CYAEI%2CKAGI%3BAApCpB%2CaAEI%2CcAGI%2CeA0BI%2CYAEI%2CKAGW%3BAApCZ%2CWAEX%2CcAGI%2CeA0BI%2CYAEI%2CKAGW%3BAApCC%2CWAExB%2CcAGI%2CeA0BI%2CYAEI%2CKAGW%3BAApCc%2CcAErC%2CcAGI%2CeA0BI%2CYAEI%2CKAGW%3BEACH%2C0BAAA%3BEACA%3BEACA%3BEACA%3BEACA%2CoCAAA%3BEACA%3BEACA%3B%3BAA3CxB%2CaAEI%2CcAGI%2CeA0BI%2CYAEI%2CKAYI%3BAA7CL%2CWAEX%2CcAGI%2CeA0BI%2CYAEI%2CKAYI%3BAA7CQ%2CWAExB%2CcAGI%2CeA0BI%2CYAEI%2CKAYI%3BAA7CqB%2CcAErC%2CcAGI%2CeA0BI%2CYAEI%2CKAYI%3BEACI%2CkBAAA%3B%3BAA9CxB%2CaAEI%2CcAGI%2CeA0BI%2CYAEI%2CKAeI%3BAAhDL%2CWAEX%2CcAGI%2CeA0BI%2CYAEI%2CKAeI%3BAAhDQ%2CWAExB%2CcAGI%2CeA0BI%2CYAEI%2CKAeI%3BAAhDqB%2CcAErC%2CcAGI%2CeA0BI%2CYAEI%2CKAeI%3BEACI%3BEACA%3B%3BAAlDxB%2CaAEI%2CcAGI%2CeA0BI%2CYAEI%2CKAmBI%3BAApDL%2CWAEX%2CcAGI%2CeA0BI%2CYAEI%2CKAmBI%3BAApDQ%2CWAExB%2CcAGI%2CeA0BI%2CYAEI%2CKAmBI%3BAApDqB%2CcAErC%2CcAGI%2CeA0BI%2CYAEI%2CKAmBI%3BEACI%3BEACA%3B%3BAAtDxB%2CaAEI%2CcAGI%2CeA0BI%2CYA0BI%3BAAzDD%2CWAEX%2CcAGI%2CeA0BI%2CYA0BI%3BAAzDY%2CWAExB%2CcAGI%2CeA0BI%2CYA0BI%3BAAzDyB%2CcAErC%2CcAGI%2CeA0BI%2CYA0BI%3BEACI%2C2BAAA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CYAAY%2CoDAAZ%3BEACA%3BEACA%3B%3BAAnEpB%2CaAEI%2CcAGI%2CeA0BI%2CYAsCI%2COAAM%3BAArEP%2CWAEX%2CcAGI%2CeA0BI%2CYAsCI%2COAAM%3BAArEM%2CWAExB%2CcAGI%2CeA0BI%2CYAsCI%2COAAM%3BAArEmB%2CcAErC%2CcAGI%2CeA0BI%2CYAsCI%2COAAM%3BEACF%2CYAAY%2CoDAAZ%3B%3BAAtEpB%2CaA2EI%3BAA3EW%2CWA2EX%3BAA3EwB%2CWA2ExB%3BAA3EqC%2CcA2ErC%3BEACI%3BEACA%3BEACA%2CmBAAA%3B%3BAA9ER%2CaA2EI%2CWAII%3BAA%5C%2FEO%2CWA2EX%2CWAII%3BAA%5C%2FEoB%2CWA2ExB%2CWAII%3BAA%5C%2FEiC%2CcA2ErC%2CWAII%3BAA%5C%2FER%2CaA2EI%2CWAImB%3BAA%5C%2FER%2CWA2EX%2CWAImB%3BAA%5C%2FEK%2CWA2ExB%2CWAImB%3BAA%5C%2FEkB%2CcA2ErC%2CWAImB%3BEACX%3BEACA%3B%3BAAjFZ%2CaA2EI%2CWAQI%3BAAnFO%2CWA2EX%2CWAQI%3BAAnFoB%2CWA2ExB%2CWAQI%3BAAnFiC%2CcA2ErC%2CWAQI%3BEACI%3BEACA%3BEACA%2CsBAAsB%2C6FAAtB%3BEACA%3BEACA%3B%3BAAxFZ%2CaA2EI%2CWAeI%3BAA1FO%2CWA2EX%2CWAeI%3BAA1FoB%2CWA2ExB%2CWAeI%3BAA1FiC%2CcA2ErC%2CWAeI%3BEACI%3BEACA%3BEACA%3B%3BAAKZ%2CEAAE%3BEACE%3BEACA%2CgBAAA%3BEACA%3BEACA%3BEACA%3B%3BAALJ%2CEAAE%2CWAME%2CGACI%3BEACI%3BEACA%2CcAAA%3B%3BAATZ%2CEAAE%2CWAYE%2CGAAE%3BEACJ%3BEACA%3B%3BAAdF%2CEAAE%2CWAYE%2CGAAE%2COAGE%3BEACI%3B%3BAAhBZ%2CEAAE%2CWAmBE%2CGAAE%2COACE%3BEACI%3B%3BAArBZ%2CEAAE%2CWAwBE%2CGAAE%2CWACE%3BEACI%3B%3BAA1BZ%2CEAAE%2CWA6BE%2CGAAK%2CKAAE%3BEACH%3B%3BAA9BR%2CEAAE%2CWAgCE%2CSACI%3BEACI%3B%3BAAKZ%3BEACC%2CqBAAA%3B%3BAADD%2CWAEI%3BEACI%3BEACA%3B%3BAAJR%2CWAEI%2CgBAIF%3BEACC%3B%3BAAPH%2CWAEI%2CgBAIF%2CeAEC%3BEACC%2CyBAAA%3BEACA%3BEACA%3BEACA%2CmBAAA%3B%3BAAZJ%2CWAEI%2CgBAcF%2CeAAc%3BAAhBhB%2CWAEI%2CgBAcoB%2CeAAc%3BEACnC%2CyBAAA%3B%3BAAjBH%2CWAEI%2CgBAcF%2CeAAc%2CMAEb%3BAAlBH%2CWAEI%2CgBAcoB%2CeAAc%2CMAEnC%3BEACC%3BEACA%2CmBAAA%3B%3BAApBJ%2CWAEI%2CgBAqBI%3BEACI%3BEACT%3B%3BAAzBH%2CWAEI%2CgBAqBI%2CiBAGI%3BEACI%3BEACA%3B%3BAA5BhB%2CWAEI%2CgBAqBI%2CiBAGI%2CKAII%2CQAAQ%3BEACJ%3BEAEA%3BEACA%3BEACA%3BEAEA%3BEACA%3BEACA%2CiDAAA%3BEACA%2CyCAAA%3BEACA%3BEACA%2CsBAAsB%2CsGAAtB%3BEACA%3BEACA%2CwBAAA%3B%3BAA5CpB%2CWAEI%2CgBAqBI%2CiBAGI%2CKAII%2CQAAQ%2CeAeJ%3BEACI%3BEACA%3BEACA%3B%3BAAhDxB%2CWAEI%2CgBAqBI%2CiBAGI%2CKAII%2CQAAQ%2CeAeJ%2CGAII%3BEACI%2CkBAAA%3BEACA%3BEACA%3BEACA%3BEACA%2CcAAA%3BEACA%3B%3BAAvD5B%2CWAEI%2CgBAqBI%2CiBAGI%2CKAII%2CQAAQ%2CeA4BJ%2CGAAE%2COACE%3BEACI%3BEACA%3B%3BAA7D5B%2CWAEI%2CgBAqBI%2CiBAGI%2CKAII%2CQAAQ%2CeAkCJ%2CGACI%2CEAAC%3BAAjEzB%2CWAEI%2CgBAqBI%2CiBAGI%2CKAII%2CQAAQ%2CeAkCA%2CGAAE%2COACF%2CEAAC%3BAAjEzB%2CWAEI%2CgBAqBI%2CiBAGI%2CKAII%2CQAAQ%2CeAkCJ%2CGACa%2CEAAC%3BAAjElC%2CWAEI%2CgBAqBI%2CiBAGI%2CKAII%2CQAAQ%2CeAkCA%2CGAAE%2COACO%2CEAAC%3BEACN%3BEACA%3B%3BAAnE5B%2CWAEI%2CgBAqBI%2CiBAGI%2CKAII%2CQAAQ%2CeAwCJ%2CGAAE%3BEACE%3BEACA%3BEACA%3BEACA%3B%3BAA1ExB%2CWAEI%2CgBAqBI%2CiBAGI%2CKAII%2CQAAQ%2CeAiDJ%2CGAAE%3BEACE%3BEACA%3BEACA%3B%3BAAlFxB%2CWAEI%2CgBAqBI%2CiBAGI%2CKA8DI%2CQAAO%2CMAAO%3BEACV%3BEACA%3BEACA%3BEACA%3B%3BAA5FpB%2CWAEI%2CgBAqBI%2CiBAGI%2CKAqEI%3BEACI%3BEACA%3BEACA%3BEAEA%3BEACA%2CiCAAA%3BEACA%3BEACf%3B%3BAAvGL%2CWAEI%2CgBAqBI%2CiBAGI%2CKAqEI%2CGASI%3BEACI%3BEAEA%2CsCAAA%3BEACA%3BEACA%2CcAAA%3BEACA%3BEACA%3BEAClB%2CgBAAA%3BEACA%3B%3BAAjHN%2CWAEI%2CgBAqBI%2CiBAGI%2CKA0FI%2CGAAE%2COACE%3BEACI%3BEAClB%2CgCAAA%3B%3BAAvHN%2CWAEI%2CgBAqBI%2CiBAGI%2CKAgGI%2CGACI%2CEAAC%3BAA3HrB%2CWAEI%2CgBAqBI%2CiBAGI%2CKAgGQ%2CGAAE%2COACF%2CEAAC%3BAA3HrB%2CWAEI%2CgBAqBI%2CiBAGI%2CKAgGI%2CGACa%2CEAAC%3BAA3H9B%2CWAEI%2CgBAqBI%2CiBAGI%2CKAgGQ%2CGAAE%2COACO%2CEAAC%3BEACN%3BEAClB%2CgCAAA%3B%3BAAUN%2CGAAG%3BEACF%2CoBAAA%3BEACA%3B%3BAAID%3BEACC%3BEACA%3BEACA%3B%3BAAHD%2CQAKC%2CIAAG%3BEACF%3BEACA%3B%3BAAPF%2CQAUI%3BEACI%3B%3BAAXR%2CQAUI%2CeAEI%3BEACI%3B%3BAAbZ%2CQAgBI%3BEACI%3BEACN%3BEACA%3B%3B%3B%3B%3B%3B%3B%3B%3B%3BAAnBF%2CQAgBI%2CgBAYI%3BEACI%3B%3BAA7BZ%2CQAgBI%2CgBAYI%2CgBAGJ%3BEACC%3BEACA%3B%3BAAjCL%2CQAgBI%2CgBAYI%2CgBAGJ%2CEAGA%3BEACC%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAAvCL%2CQAgBI%2CgBAYI%2CgBAGJ%2CEAGA%2CUAOC%3BEACC%3BEACA%3BEACA%3BEACA%2CkCAAA%3BEACA%3B%3BAA9CN%2CQAgBI%2CgBAYI%2CgBAuBL%2CEAAC%2CMACA%2CUACC%3BEACC%2CoCAAA%3BEACA%2CwHAAA%3B%3BAAvDN%2CQAgBI%2CgBAYI%2CgBA%2BBI%3BEACI%3BEACA%3B%3BAA7DhB%2CQAgBI%2CgBAiDF%3BEACC%3B%3BAAlEH%2CQAqEI%3BEACI%3B%3BAAtER%2CQAqEI%2CYAEI%3BEACI%3BEACA%3BEACA%3B%3BAA1EZ%2CQAqEI%2CYAEI%2CGAII%3BEACI%3B%3BAA5EhB%2CQAqEI%2CYAEI%2CGAII%2CGAEI%3BAA7EhB%2CQAqEI%2CYAEI%2CGAII%2CGAEU%3BEACF%2CgBAAA%3B%3BAA9EpB%2CQAqEI%2CYAEI%2CGAWL%2CGAAE%2CiBACD%3BAAnFJ%2CQAqEI%2CYAEI%2CGAWgB%2CGAAE%2CeACtB%3BEACC%2C%2BGAAA%3BEACA%3B%3BAArFL%2CQAqEI%2CYAEI%2CGAkBL%2CGAAE%2CiBACD%3BEACC%2CkCAAA%3B%3BAA3FL%2CQAqEI%2CYAEI%2CGAkBL%2CGAAE%2CiBAID%2CEAAC%3BEACA%2CkCAAA%3B%3BAA9FL%2CQAqEI%2CYAEI%2CGAkBL%2CGAAE%2CiBAQD%3BEACC%3B%3BAAlGL%2CQAqEI%2CYAEI%2CGA%2BBL%2CGAAE%2CeACD%3BEACC%2C%2BBAAA%3B%3BAAxGL%2CQAqEI%2CYAEI%2CGA%2BBL%2CGAAE%2CeAKD%2CEAAC%3BEACA%2CiCAAA%3B%3BAA5GL%2CQAqEI%2CYAEI%2CGA%2BBL%2CGAAE%2CeASD%3BEACC%3B%3BAAYL%3BEACI%3BEACA%3BEACA%3B%3BAAEJ%3BEACI%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAAPJ%2CcAQI%3BAARJ%2CcAQc%3BEACN%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAAdR%2CcAQI%2CSAOI%3BAAfR%2CcAQc%2CSAON%3BEACI%3BEACA%3BEACA%3BEACA%3BEACA%2CkBAAA%3BEACA%3B%3BAArBZ%2CcAQI%2CSAeI%2CEAAC%3BAAvBT%2CcAQc%2CSAeN%2CEAAC%3BEACG%3BEACA%3B%3BAAzBZ%2CcA4BI%2CSAAQ%2CMACJ%3BAA7BR%2CcA4BoB%2CSAAQ%2CMACpB%3BEACI%3BEACA%3B%3BAA%5C%2FBZ%2CcAkCI%3BEACI%3B%3BAAnCR%2CcAkCI%2CSAEI%3BEACI%3BEACA%2C4BAAA%3B%3BAAtCZ%2CcAyCI%3BEACI%3B%3BAA1CR%2CcAyCI%2CSAEI%3BEACI%3BEACA%2C4BAAA%3B%3BAAIZ%3BEACI%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CoCAAA%3BEACA%3BEACA%3B%3BAARJ%2CeASI%3BEACI%3BEACA%2CiBAAA%3BEACA%2CoCAAA%3BEACA%3B%3BAAbR%2CeAeI%2CEAAC%3BEACG%3B%3BAAMR%3BAAAc%3BAAAoB%3BAAAoB%3BAAAqB%3BAAAgB%3BEACvF%2CiBAAA%3B%3BAADJ%2CYAEI%3BAAFU%2CkBAEV%3BAAF8B%2CkBAE9B%3BAAFkD%2CmBAElD%3BAAFuE%2CcAEvE%3BAAFuF%2CeAEvF%3BEACI%2CoBAAA%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAAPR%2CYASI%3BAATU%2CkBASV%3BAAT8B%2CkBAS9B%3BAATkD%2CmBASlD%3BAATuE%2CcASvE%3BAATuF%2CeASvF%3BAATJ%2CYASW%3BAATG%2CkBASH%3BAATuB%2CkBASvB%3BAAT2C%2CmBAS3C%3BAATgE%2CcAShE%3BAATgF%2CeAShF%3BEACH%2CcAAA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2C%2BCAAA%3BEACA%3B%3BAAlBR%2CYAoBI%3BAApBU%2CkBAoBV%3BAApB8B%2CkBAoB9B%3BAApBkD%2CmBAoBlD%3BAApBuE%2CcAoBvE%3BAApBuF%2CeAoBvF%3BEACI%3B%3BAArBR%2CYAoBI%2CUAEI%2CSACI%3BAAvBE%2CkBAoBV%2CUAEI%2CSACI%3BAAvBsB%2CkBAoB9B%2CUAEI%2CSACI%3BAAvB0C%2CmBAoBlD%2CUAEI%2CSACI%3BAAvB%2BD%2CcAoBvE%2CUAEI%2CSACI%3BAAvB%2BE%2CeAoBvF%2CUAEI%2CSACI%3BEACI%2CyBAAA%3BEACA%3BEACA%2CgDAAA%3B%3BAA1BhB%2CYAoBI%2CUAEI%2CSACI%2CaAII%3BAA3BF%2CkBAoBV%2CUAEI%2CSACI%2CaAII%3BAA3BkB%2CkBAoB9B%2CUAEI%2CSACI%2CaAII%3BAA3BsC%2CmBAoBlD%2CUAEI%2CSACI%2CaAII%3BAA3B2D%2CcAoBvE%2CUAEI%2CSACI%2CaAII%3BAA3B2E%2CeAoBvF%2CUAEI%2CSACI%2CaAII%3BEACI%3BEACA%3BEACA%3BEACA%3B%3BAA%5C%2FBpB%2CYAoBI%2CUAeI%2CeACI%3BAApCE%2CkBAoBV%2CUAeI%2CeACI%3BAApCsB%2CkBAoB9B%2CUAeI%2CeACI%3BAApC0C%2CmBAoBlD%2CUAeI%2CeACI%3BAApC%2BD%2CcAoBvE%2CUAeI%2CeACI%3BAApC%2BE%2CeAoBvF%2CUAeI%2CeACI%3BEACI%3BEACA%2CiBAAA%3BEACA%3BEACA%3B%3BAAxChB%2CYAoBI%2CUAeI%2CeAOI%3BAA1CE%2CkBAoBV%2CUAeI%2CeAOI%3BAA1CsB%2CkBAoB9B%2CUAeI%2CeAOI%3BAA1C0C%2CmBAoBlD%2CUAeI%2CeAOI%3BAA1C%2BD%2CcAoBvE%2CUAeI%2CeAOI%3BAA1C%2BE%2CeAoBvF%2CUAeI%2CeAOI%3BEACI%3BEACA%2CiBAAA%3BEACA%3BEACA%3B%3BAA9ChB%2CYAoBI%2CUAeI%2CeAOI%2CcAKI%3BAA%5C%2FCF%2CkBAoBV%2CUAeI%2CeAOI%2CcAKI%3BAA%5C%2FCkB%2CkBAoB9B%2CUAeI%2CeAOI%2CcAKI%3BAA%5C%2FCsC%2CmBAoBlD%2CUAeI%2CeAOI%2CcAKI%3BAA%5C%2FC2D%2CcAoBvE%2CUAeI%2CeAOI%2CcAKI%3BAA%5C%2FC2E%2CeAoBvF%2CUAeI%2CeAOI%2CcAKI%3BAA%5C%2FChB%2CYAoBI%2CUAeI%2CeAOI%2CcAKe%3BAA%5C%2FCb%2CkBAoBV%2CUAeI%2CeAOI%2CcAKe%3BAA%5C%2FCO%2CkBAoB9B%2CUAeI%2CeAOI%2CcAKe%3BAA%5C%2FC2B%2CmBAoBlD%2CUAeI%2CeAOI%2CcAKe%3BAA%5C%2FCgD%2CcAoBvE%2CUAeI%2CeAOI%2CcAKe%3BAA%5C%2FCgE%2CeAoBvF%2CUAeI%2CeAOI%2CcAKe%3BEACP%3BEACA%3B%3BAAjDpB%2CYAoBI%2CUAeI%2CeAOI%2CcASI%3BAAnDF%2CkBAoBV%2CUAeI%2CeAOI%2CcASI%3BAAnDkB%2CkBAoB9B%2CUAeI%2CeAOI%2CcASI%3BAAnDsC%2CmBAoBlD%2CUAeI%2CeAOI%2CcASI%3BAAnD2D%2CcAoBvE%2CUAeI%2CeAOI%2CcASI%3BAAnD2E%2CeAoBvF%2CUAeI%2CeAOI%2CcASI%3BEACI%3BEACA%3B%3BAArDpB%2CYAoBI%2CUAeI%2CeAOI%2CcASI%2CgBAGI%3BAAtDN%2CkBAoBV%2CUAeI%2CeAOI%2CcASI%2CgBAGI%3BAAtDc%2CkBAoB9B%2CUAeI%2CeAOI%2CcASI%2CgBAGI%3BAAtDkC%2CmBAoBlD%2CUAeI%2CeAOI%2CcASI%2CgBAGI%3BAAtDuD%2CcAoBvE%2CUAeI%2CeAOI%2CcASI%2CgBAGI%3BAAtDuE%2CeAoBvF%2CUAeI%2CeAOI%2CcASI%2CgBAGI%3BEACI%3BEACA%3B%3BAAxDxB%2CYAoBI%2CUAeI%2CeAyBI%3BAA5DE%2CkBAoBV%2CUAeI%2CeAyBI%3BAA5DsB%2CkBAoB9B%2CUAeI%2CeAyBI%3BAA5D0C%2CmBAoBlD%2CUAeI%2CeAyBI%3BAA5D%2BD%2CcAoBvE%2CUAeI%2CeAyBI%3BAA5D%2BE%2CeAoBvF%2CUAeI%2CeAyBI%3BEACI%3B%3BAA7DhB%2CYAoBI%2CUAeI%2CeAyBI%2CeAEI%3BAA9DF%2CkBAoBV%2CUAeI%2CeAyBI%2CeAEI%3BAA9DkB%2CkBAoB9B%2CUAeI%2CeAyBI%2CeAEI%3BAA9DsC%2CmBAoBlD%2CUAeI%2CeAyBI%2CeAEI%3BAA9D2D%2CcAoBvE%2CUAeI%2CeAyBI%2CeAEI%3BAA9D2E%2CeAoBvF%2CUAeI%2CeAyBI%2CeAEI%3BEACI%3BEACA%3BEACA%3BEACA%2C2CAAA%3B%3BAAlEpB%2CYAoBI%2CUAeI%2CeAyBI%2CeAEI%2CiBAKI%3BAAnEN%2CkBAoBV%2CUAeI%2CeAyBI%2CeAEI%2CiBAKI%3BAAnEc%2CkBAoB9B%2CUAeI%2CeAyBI%2CeAEI%2CiBAKI%3BAAnEkC%2CmBAoBlD%2CUAeI%2CeAyBI%2CeAEI%2CiBAKI%3BAAnEuD%2CcAoBvE%2CUAeI%2CeAyBI%2CeAEI%2CiBAKI%3BAAnEuE%2CeAoBvF%2CUAeI%2CeAyBI%2CeAEI%2CiBAKI%3BEACI%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAAzExB%2CYAoBI%2CUAeI%2CeA%2BCI%2CuBACI%3BAAnFF%2CkBAoBV%2CUAeI%2CeA%2BCI%2CuBACI%3BAAnFkB%2CkBAoB9B%2CUAeI%2CeA%2BCI%2CuBACI%3BAAnFsC%2CmBAoBlD%2CUAeI%2CeA%2BCI%2CuBACI%3BAAnF2D%2CcAoBvE%2CUAeI%2CeA%2BCI%2CuBACI%3BAAnF2E%2CeAoBvF%2CUAeI%2CeA%2BCI%2CuBACI%3BEACI%2CiBAAA%3BEACA%3B%3BAArFpB%2CYAoBI%2CUAeI%2CeA%2BCI%2CuBACI%2CWAGI%3BAAtFN%2CkBAoBV%2CUAeI%2CeA%2BCI%2CuBACI%2CWAGI%3BAAtFc%2CkBAoB9B%2CUAeI%2CeA%2BCI%2CuBACI%2CWAGI%3BAAtFkC%2CmBAoBlD%2CUAeI%2CeA%2BCI%2CuBACI%2CWAGI%3BAAtFuD%2CcAoBvE%2CUAeI%2CeA%2BCI%2CuBACI%2CWAGI%3BAAtFuE%2CeAoBvF%2CUAeI%2CeA%2BCI%2CuBACI%2CWAGI%3BAAtFpB%2CYAoBI%2CUAeI%2CeA%2BCI%2CuBACI%2CWAGuB%3BAAtFzB%2CkBAoBV%2CUAeI%2CeA%2BCI%2CuBACI%2CWAGuB%3BAAtFL%2CkBAoB9B%2CUAeI%2CeA%2BCI%2CuBACI%2CWAGuB%3BAAtFe%2CmBAoBlD%2CUAeI%2CeA%2BCI%2CuBACI%2CWAGuB%3BAAtFoC%2CcAoBvE%2CUAeI%2CeA%2BCI%2CuBACI%2CWAGuB%3BAAtFoD%2CeAoBvF%2CUAeI%2CeA%2BCI%2CuBACI%2CWAGuB%3BEACf%3BEACA%3BEACA%3BEACA%3B%3BAA1FxB%2CYAoBI%2CUAeI%2CeA%2BCI%2CuBACI%2CWAaI%3BAAhGN%2CkBAoBV%2CUAeI%2CeA%2BCI%2CuBACI%2CWAaI%3BAAhGc%2CkBAoB9B%2CUAeI%2CeA%2BCI%2CuBACI%2CWAaI%3BAAhGkC%2CmBAoBlD%2CUAeI%2CeA%2BCI%2CuBACI%2CWAaI%3BAAhGuD%2CcAoBvE%2CUAeI%2CeA%2BCI%2CuBACI%2CWAaI%3BAAhGuE%2CeAoBvF%2CUAeI%2CeA%2BCI%2CuBACI%2CWAaI%3BEACI%3B%3BAAjGxB%2CYAoBI%2CUAkFI%3BAAtGM%2CkBAoBV%2CUAkFI%3BAAtG0B%2CkBAoB9B%2CUAkFI%3BAAtG8C%2CmBAoBlD%2CUAkFI%3BAAtGmE%2CcAoBvE%2CUAkFI%3BAAtGmF%2CeAoBvF%2CUAkFI%3BEACI%2CiBAAA%3B%3BAAvGZ%2CYAoBI%2CUAkFI%2CYAEI%3BAAxGE%2CkBAoBV%2CUAkFI%2CYAEI%3BAAxGsB%2CkBAoB9B%2CUAkFI%2CYAEI%3BAAxG0C%2CmBAoBlD%2CUAkFI%2CYAEI%3BAAxG%2BD%2CcAoBvE%2CUAkFI%2CYAEI%3BAAxG%2BE%2CeAoBvF%2CUAkFI%2CYAEI%3BEACI%3B%3BAAzGhB%2CYAoBI%2CUAkFI%2CYAEI%2CYAEI%2CYACI%3BAA3GN%2CkBAoBV%2CUAkFI%2CYAEI%2CYAEI%2CYACI%3BAA3Gc%2CkBAoB9B%2CUAkFI%2CYAEI%2CYAEI%2CYACI%3BAA3GkC%2CmBAoBlD%2CUAkFI%2CYAEI%2CYAEI%2CYACI%3BAA3GuD%2CcAoBvE%2CUAkFI%2CYAEI%2CYAEI%2CYACI%3BAA3GuE%2CeAoBvF%2CUAkFI%2CYAEI%2CYAEI%2CYACI%3BEACI%3BEACA%3BEACA%3B%3BAA9GxB%2CYAoBI%2CUAkFI%2CYAEI%2CYASI%3BAAjHF%2CkBAoBV%2CUAkFI%2CYAEI%2CYASI%3BAAjHkB%2CkBAoB9B%2CUAkFI%2CYAEI%2CYASI%3BAAjHsC%2CmBAoBlD%2CUAkFI%2CYAEI%2CYASI%3BAAjH2D%2CcAoBvE%2CUAkFI%2CYAEI%2CYASI%3BAAjH2E%2CeAoBvF%2CUAkFI%2CYAEI%2CYASI%3BEACI%3BEACA%3BEACA%3BEACA%3B%3BAArHpB%2CYAoBI%2CUAkFI%2CYAkBI%2CYACI%2CWACI%3BAA1HN%2CkBAoBV%2CUAkFI%2CYAkBI%2CYACI%2CWACI%3BAA1Hc%2CkBAoB9B%2CUAkFI%2CYAkBI%2CYACI%2CWACI%3BAA1HkC%2CmBAoBlD%2CUAkFI%2CYAkBI%2CYACI%2CWACI%3BAA1HuD%2CcAoBvE%2CUAkFI%2CYAkBI%2CYACI%2CWACI%3BAA1HuE%2CeAoBvF%2CUAkFI%2CYAkBI%2CYACI%2CWACI%3BEACI%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAA%5C%2FHxB%2CYAoBI%2CUAkFI%2CYAkBI%2CYACI%2CWAQI%3BAAjIN%2CkBAoBV%2CUAkFI%2CYAkBI%2CYACI%2CWAQI%3BAAjIc%2CkBAoB9B%2CUAkFI%2CYAkBI%2CYACI%2CWAQI%3BAAjIkC%2CmBAoBlD%2CUAkFI%2CYAkBI%2CYACI%2CWAQI%3BAAjIuD%2CcAoBvE%2CUAkFI%2CYAkBI%2CYACI%2CWAQI%3BAAjIuE%2CeAoBvF%2CUAkFI%2CYAkBI%2CYACI%2CWAQI%3BEACI%3BEACA%3B%3BAAnIxB%2CYAoBI%2CUAkFI%2CYAkBI%2CYACI%2CWAYI%3BAArIN%2CkBAoBV%2CUAkFI%2CYAkBI%2CYACI%2CWAYI%3BAArIc%2CkBAoB9B%2CUAkFI%2CYAkBI%2CYACI%2CWAYI%3BAArIkC%2CmBAoBlD%2CUAkFI%2CYAkBI%2CYACI%2CWAYI%3BAArIuD%2CcAoBvE%2CUAkFI%2CYAkBI%2CYACI%2CWAYI%3BAArIuE%2CeAoBvF%2CUAkFI%2CYAkBI%2CYACI%2CWAYI%3BEACI%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAA1IxB%2CYAoBI%2CUAkFI%2CYAkBI%2CYAqBI%3BAA7IF%2CkBAoBV%2CUAkFI%2CYAkBI%2CYAqBI%3BAA7IkB%2CkBAoB9B%2CUAkFI%2CYAkBI%2CYAqBI%3BAA7IsC%2CmBAoBlD%2CUAkFI%2CYAkBI%2CYAqBI%3BAA7I2D%2CcAoBvE%2CUAkFI%2CYAkBI%2CYAqBI%3BAA7I2E%2CeAoBvF%2CUAkFI%2CYAkBI%2CYAqBI%3BEACI%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAAlJpB%2CYAoBI%2CUAkFI%2CYA%2BCI%3BAArJE%2CkBAoBV%2CUAkFI%2CYA%2BCI%3BAArJsB%2CkBAoB9B%2CUAkFI%2CYA%2BCI%3BAArJ0C%2CmBAoBlD%2CUAkFI%2CYA%2BCI%3BAArJ%2BD%2CcAoBvE%2CUAkFI%2CYA%2BCI%3BAArJ%2BE%2CeAoBvF%2CUAkFI%2CYA%2BCI%3BEACI%3BEACA%3B%3BAAvJhB%2CYAoBI%2CUAkFI%2CYA%2BCI%2CSAGI%3BAAxJF%2CkBAoBV%2CUAkFI%2CYA%2BCI%2CSAGI%3BAAxJkB%2CkBAoB9B%2CUAkFI%2CYA%2BCI%2CSAGI%3BAAxJsC%2CmBAoBlD%2CUAkFI%2CYA%2BCI%2CSAGI%3BAAxJ2D%2CcAoBvE%2CUAkFI%2CYA%2BCI%2CSAGI%3BAAxJ2E%2CeAoBvF%2CUAkFI%2CYA%2BCI%2CSAGI%3BEACI%3BEACA%3BEACA%3BEACA%2CYAAY%2C4CAAZ%3BEACA%3BEACA%3BEACA%3BEACA%2C8EAAA%3BEACA%3BEACA%3BEACA%3B%3BAAnKpB%2CYAoBI%2CUAkFI%2CYA%2BCI%2CSAgBI%2CMAAK%3BAArKP%2CkBAoBV%2CUAkFI%2CYA%2BCI%2CSAgBI%2CMAAK%3BAArKa%2CkBAoB9B%2CUAkFI%2CYA%2BCI%2CSAgBI%2CMAAK%3BAArKiC%2CmBAoBlD%2CUAkFI%2CYA%2BCI%2CSAgBI%2CMAAK%3BAArKsD%2CcAoBvE%2CUAkFI%2CYA%2BCI%2CSAgBI%2CMAAK%3BAArKsE%2CeAoBvF%2CUAkFI%2CYA%2BCI%2CSAgBI%2CMAAK%3BAArKrB%2CYAoBI%2CUAkFI%2CYA%2BCI%2CSAgBiB%2CMAAK%3BAArKpB%2CkBAoBV%2CUAkFI%2CYA%2BCI%2CSAgBiB%2CMAAK%3BAArKA%2CkBAoB9B%2CUAkFI%2CYA%2BCI%2CSAgBiB%2CMAAK%3BAArKoB%2CmBAoBlD%2CUAkFI%2CYA%2BCI%2CSAgBiB%2CMAAK%3BAArKyC%2CcAoBvE%2CUAkFI%2CYA%2BCI%2CSAgBiB%2CMAAK%3BAArKyD%2CeAoBvF%2CUAkFI%2CYA%2BCI%2CSAgBiB%2CMAAK%3BEACd%2CYAAY%2C4CAAZ%3BEACA%2CwCAAA%3B%3BAAvKpB%2CYA4KI%3BAA5KU%2CkBA4KV%3BAA5K8B%2CkBA4K9B%3BAA5KkD%2CmBA4KlD%3BAA5KuE%2CcA4KvE%3BAA5KuF%2CeA4KvF%3BEACI%3B%3BAA7KR%2CYA4KI%2CaAEI%2CWACI%3BAA%5C%2FKE%2CkBA4KV%2CaAEI%2CWACI%3BAA%5C%2FKsB%2CkBA4K9B%2CaAEI%2CWACI%3BAA%5C%2FK0C%2CmBA4KlD%2CaAEI%2CWACI%3BAA%5C%2FK%2BD%2CcA4KvE%2CaAEI%2CWACI%3BAA%5C%2FK%2BE%2CeA4KvF%2CaAEI%2CWACI%3BEACI%2CmBAAA%3BEACA%3BEACA%3BEACA%3B%3BAAnLhB%2CYA4KI%2CaAEI%2CWAOI%3BAArLE%2CkBA4KV%2CaAEI%2CWAOI%3BAArLsB%2CkBA4K9B%2CaAEI%2CWAOI%3BAArL0C%2CmBA4KlD%2CaAEI%2CWAOI%3BAArL%2BD%2CcA4KvE%2CaAEI%2CWAOI%3BAArL%2BE%2CeA4KvF%2CaAEI%2CWAOI%3BEACI%2CmBAAA%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAA1LhB%2CYA4KI%2CaAEI%2CWAcI%3BAA5LE%2CkBA4KV%2CaAEI%2CWAcI%3BAA5LsB%2CkBA4K9B%2CaAEI%2CWAcI%3BAA5L0C%2CmBA4KlD%2CaAEI%2CWAcI%3BAA5L%2BD%2CcA4KvE%2CaAEI%2CWAcI%3BAA5L%2BE%2CeA4KvF%2CaAEI%2CWAcI%3BEACI%3BEACA%3BEACA%3B%3BAA%5C%2FLhB%2CYA4KI%2CaAEI%2CWAmBI%2CEAAC%3BAAjMC%2CkBA4KV%2CaAEI%2CWAmBI%2CEAAC%3BAAjMqB%2CkBA4K9B%2CaAEI%2CWAmBI%2CEAAC%3BAAjMyC%2CmBA4KlD%2CaAEI%2CWAmBI%2CEAAC%3BAAjM8D%2CcA4KvE%2CaAEI%2CWAmBI%2CEAAC%3BAAjM8E%2CeA4KvF%2CaAEI%2CWAmBI%2CEAAC%3BEACG%3BEACA%3B%3BAAnMhB%2CYA4KI%2CaAEI%2CWAuBI%3BAArME%2CkBA4KV%2CaAEI%2CWAuBI%3BAArMsB%2CkBA4K9B%2CaAEI%2CWAuBI%3BAArM0C%2CmBA4KlD%2CaAEI%2CWAuBI%3BAArM%2BD%2CcA4KvE%2CaAEI%2CWAuBI%3BAArM%2BE%2CeA4KvF%2CaAEI%2CWAuBI%3BEACI%3BEACA%3BEACA%3B%3BAAxMhB%2CYA4KI%2CaAEI%2CWA4BI%3BAA1ME%2CkBA4KV%2CaAEI%2CWA4BI%3BAA1MsB%2CkBA4K9B%2CaAEI%2CWA4BI%3BAA1M0C%2CmBA4KlD%2CaAEI%2CWA4BI%3BAA1M%2BD%2CcA4KvE%2CaAEI%2CWA4BI%3BAA1M%2BE%2CeA4KvF%2CaAEI%2CWA4BI%3BEACI%3B%3BAA3MhB%2CYA4KI%2CaAEI%2CWA4BI%2CMAEI%2CGACI%3BAA7MN%2CkBA4KV%2CaAEI%2CWA4BI%2CMAEI%2CGACI%3BAA7Mc%2CkBA4K9B%2CaAEI%2CWA4BI%2CMAEI%2CGACI%3BAA7MkC%2CmBA4KlD%2CaAEI%2CWA4BI%2CMAEI%2CGACI%3BAA7MuD%2CcA4KvE%2CaAEI%2CWA4BI%2CMAEI%2CGACI%3BAA7MuE%2CeA4KvF%2CaAEI%2CWA4BI%2CMAEI%2CGACI%3BEACI%2CoCAAA%3BEACA%3BEACA%3BEACA%3B%3BAAjNxB%2CYA4KI%2CaAEI%2CWA4BI%2CMAUI%2CGAAE%3BAApNJ%2CkBA4KV%2CaAEI%2CWA4BI%2CMAUI%2CGAAE%3BAApNgB%2CkBA4K9B%2CaAEI%2CWA4BI%2CMAUI%2CGAAE%3BAApNoC%2CmBA4KlD%2CaAEI%2CWA4BI%2CMAUI%2CGAAE%3BAApNyD%2CcA4KvE%2CaAEI%2CWA4BI%2CMAUI%2CGAAE%3BAApNyE%2CeA4KvF%2CaAEI%2CWA4BI%2CMAUI%2CGAAE%3BEACE%3B%3BAArNpB%2CYA4KI%2CaAEI%2CWA4BI%2CMAUI%2CGAAE%2CYAEE%3BAAtNN%2CkBA4KV%2CaAEI%2CWA4BI%2CMAUI%2CGAAE%2CYAEE%3BAAtNc%2CkBA4K9B%2CaAEI%2CWA4BI%2CMAUI%2CGAAE%2CYAEE%3BAAtNkC%2CmBA4KlD%2CaAEI%2CWA4BI%2CMAUI%2CGAAE%2CYAEE%3BAAtNuD%2CcA4KvE%2CaAEI%2CWA4BI%2CMAUI%2CGAAE%2CYAEE%3BAAtNuE%2CeA4KvF%2CaAEI%2CWA4BI%2CMAUI%2CGAAE%2CYAEE%3BEACI%3BEACA%3BEACA%3B%3BAAzNxB%2CYA4KI%2CaAEI%2CWA%2BCI%3BAA7NE%2CkBA4KV%2CaAEI%2CWA%2BCI%3BAA7NsB%2CkBA4K9B%2CaAEI%2CWA%2BCI%3BAA7N0C%2CmBA4KlD%2CaAEI%2CWA%2BCI%3BAA7N%2BD%2CcA4KvE%2CaAEI%2CWA%2BCI%3BAA7N%2BE%2CeA4KvF%2CaAEI%2CWA%2BCI%3BEACI%3BEACA%3BEACA%3BEACA%3B%3BAAMhB%3BEACI%2CeAAA%3B%3BAADJ%2CkBAEI%2CcACI%3BEACI%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CyBAAA%3BEACA%3BEACA%2CgFAAA%3BEACA%3BEACA%3BEACA%3B%3BAAhBZ%2CkBAEI%2CcACI%2CmBAcI%3BEACI%3BEACA%2CgCAAA%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAAvBhB%2CkBAEI%2CcACI%2CmBAcI%2CiBAOI%3BEACI%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CsBAAsB%2CuGAAtB%3BEACA%2CoCAAA%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAAnCpB%2CkBAEI%2CcACI%2CmBAmCI%3BEACI%2CoBAAA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAA5ChB%2CkBAEI%2CcACI%2CmBA2CI%3BEACI%3BEACA%3BEACA%3BEACA%3BEACA%2CiBAAA%3B%3BAAnDhB%2CkBAEI%2CcACI%2CmBA2CI%2CSAMI%3BEACI%2CcAAA%3BEACA%3BEACA%3BEACA%3B%3BAAxDpB%2CkBAEI%2CcA0DI%2CmBAAkB%3BAA5D1B%2CkBAEI%2CcA0D8B%2CmBAAkB%3BEACxC%2CiFAAA%3B%3BAAmBZ%2CGAAG%3BEACF%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAAMD%2CGAAG%3BEACF%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAALD%2CGAAG%2CwBAQF%2CIAAG%2CeAEF%3BEACC%3B%3BAAXH%2CGAAG%2CwBAQF%2CIAAG%2CeAMF%3BEACC%3BEACA%3B%3BAAhBH%2CGAAG%2CwBAoBF%2CIAAG%3BEACF%3BEACA%3BEACA%3B%3BAAIF%2CGAAG%3BEACF%3B%3BAASD%2CGAAG%3BEACF%3BEACA%3B%3BAAID%2CGAAG%3BEACF%3BEACA%2CiCAAA%3BEACA%3BEACA%3BEACA%2CqBAAA%3BEACA%3BEACA%3B%3BAAUD%2CGAAG%3BAAAe%2CGAAG%2CaAAa%3BEACjC%3BEACA%2C6GAAA%3BEACA%3B%3BAAHD%2CGAAG%2CaAMD%2CEAAC%3BAANe%2CGAAG%2CaAAa%2COAMhC%2CEAAC%3BEACA%2CiBAAA%3BEACA%3B%3BAARH%2CGAAG%2CaAWD%2CIAAG%3BAAXa%2CGAAG%2CaAAa%2COAWhC%2CIAAG%3BEACF%3B%3BAAZH%2CGAAG%2CaAWD%2CIAAG%2CMAGF%3BAAde%2CGAAG%2CaAAa%2COAWhC%2CIAAG%2CMAGF%3BEACC%3BEACA%3B%3BAAhBJ%2CGAAG%2CaAoBD%2CIAAG%3BAApBa%2CGAAG%2CaAAa%2COAoBhC%2CIAAG%3BEACF%3B%3BAArBH%2CGAAG%2CaAoBD%2CIAAG%2CSAGF%2CGAAE%3BAAvBa%2CGAAG%2CaAAa%2COAoBhC%2CIAAG%2CSAGF%2CGAAE%3BEACD%2CoCAAA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CiBAAA%3BEACA%3B%3BAA%5C%2FBJ%2CGAAG%2CaAoBD%2CIAAG%2CSAGF%2CGAAE%2CWAUD%3BAAjCc%2CGAAG%2CaAAa%2COAoBhC%2CIAAG%2CSAGF%2CGAAE%2CWAUD%3BEACC%3B%3BAAlCL%2CGAAG%2CaAoBD%2CIAAG%2CSAGF%2CGAAE%2CWAUD%2CGAGC%3BAApCa%2CGAAG%2CaAAa%2COAoBhC%2CIAAG%2CSAGF%2CGAAE%2CWAUD%2CGAGC%3BAApCL%2CGAAG%2CaAoBD%2CIAAG%2CSAGF%2CGAAE%2CWAUD%2CGAGI%3BAApCU%2CGAAG%2CaAAa%2COAoBhC%2CIAAG%2CSAGF%2CGAAE%2CWAUD%2CGAGI%3BEACF%2CcAAA%3BEACA%3BEACA%3B%3BAAvCN%2CGAAG%2CaAoBD%2CIAAG%2CSAGF%2CGAAE%2CWAoBD%2CGAAE%3BAA3CY%2CGAAG%2CaAAa%2COAoBhC%2CIAAG%2CSAGF%2CGAAE%2CWAoBD%2CGAAE%3BEACD%2CyGAAA%3BEACA%2CiCAAA%3BEACA%3B%3BAA9CL%2CGAAG%2CaAoBD%2CIAAG%2CSA8BF%2CGAAE%2CWAAW%3BAAlDE%2CGAAG%2CaAAa%2COAoBhC%2CIAAG%2CSA8BF%2CGAAE%2CWAAW%3BEACZ%3B%3BAAnDJ%2CGAAG%2CaAuDF%2CIAAG%3BAAvDc%2CGAAG%2CaAAa%2COAuDjC%2CIAAG%3BEACF%2CcAAA%3BEACA%2CiCAAA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAA%5C%2FDF%2CGAAG%2CaAuDF%2CIAAG%2CaAUF%3BAAjEgB%2CGAAG%2CaAAa%2COAuDjC%2CIAAG%2CaAUF%3BEACC%2CcAAA%3BEACA%2CiCAAA%3B%3BAAnEH%2CGAAG%2CaAuEF%2CIAAG%3BAAvEc%2CGAAG%2CaAAa%2COAuEjC%2CIAAG%3BEACF%3BEACA%2CcAAA%3BEACA%3BEACA%3B%3BAA3EF%2CGAAG%2CaA8EF%2CIAAG%3BAA9Ec%2CGAAG%2CaAAa%2COA8EjC%2CIAAG%3BEACF%2CcAAA%3BEACA%3BEACA%3BEACA%3B%3BAAlFF%2CGAAG%2CaA8EF%2CIAAG%2CWAMF%3BAApFgB%2CGAAG%2CaAAa%2COA8EjC%2CIAAG%2CWAMF%3BEACC%3BEACA%3BEACA%2C%2BGAAA%3BEACA%3BEACA%2CgBAAA%3B%3BAAzFH%2CGAAG%2CaA8EF%2CIAAG%2CWAcF%2CIAAG%3BAA5Fa%2CGAAG%2CaAAa%2COA8EjC%2CIAAG%2CWAcF%2CIAAG%3BEACF%2C4BAAA%3B%3BAA7FH%2CGAAG%2CaA8EF%2CIAAG%2CWAiBF%2CIAAG%3BAA%5C%2FFa%2CGAAG%2CaAAa%2COA8EjC%2CIAAG%2CWAiBF%2CIAAG%3BEACF%2C8BAAA%3B%3BAAhGH%2CGAAG%2CaA8EF%2CIAAG%2CWAoBF%2CIAAG%3BAAlGa%2CGAAG%2CaAAa%2COA8EjC%2CIAAG%2CWAoBF%2CIAAG%3BEACF%2C%2BBAAA%3B%3BAAQH%2CGAAG%2CaAAa%3BEAEf%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAAND%2CGAAG%2CaAAa%2COASf%2CIAAG%3BEACF%3B%3BAAaF%2CGAAG%3BEACF%3BEACA%2C0GAAA%3BEACA%3BEACA%2CkCAAA%3B%3BAAJD%2CGAAG%2CUAMF%2CIAAG%3BEACF%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAAbF%2CGAAG%2CUAMF%2CIAAG%2CQASF%2CIAAG%3BEACF%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAArBH%2CGAAG%2CUAMF%2CIAAG%2CQASF%2CIAAG%2CWAQF%3BEACC%3BEACA%3BEACA%2CoCAAA%3BEACA%3BEACA%3B%3BAA5BJ%2CGAAG%2CUAMF%2CIAAG%2CQASF%2CIAAG%2CWAQF%2CEAOC%2CKAAI%3BEACH%3BEACA%3BEACA%3BEACA%3BEACA%2CwCAAA%3B%3BAAnCL%2CGAAG%2CUAMF%2CIAAG%2CQASF%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKAOH%3BEACC%3BEACA%2CiBAAA%3BEACA%3BEACA%2CgCAAA%3B%3BAAzCN%2CGAAG%2CUAMF%2CIAAG%2CQASF%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKAcH%2CKAAI%3BEACH%2CcAAA%3BEACA%2CiCAAA%3BEACA%3BEACA%3B%3BAAhDN%2CGAAG%2CUAMF%2CIAAG%2CQASF%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKAqBH%2CKAAI%3BEACH%2CcAAA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CgBAAA%3BEACA%3BEACA%3B%3BAA3DN%2CGAAG%2CUAMF%2CIAAG%2CQASF%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKAgCH%2CKAAI%3BEACH%2CyBAAA%3BEACA%2CcAAA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CqBAAA%3BEACA%3B%3BAAzEN%2CGAAG%2CUAMF%2CIAAG%2CQASF%2CIAAG%2CWA%2BDF%2CEAAC%3BEACA%3BEACA%2CoCAAA%3B%3BAAhFJ%2CGAAG%2CUAMF%2CIAAG%2CQASF%2CIAAG%2CWA%2BDF%2CEAAC%2CMAIA%2CKAAI%3BEACH%2C0CAAA%3BEACA%3B%3BAApFL%2CGAAG%2CUAMF%2CIAAG%2CQASF%2CIAAG%2CWA%2BDF%2CEAAC%2CMAIA%2CKAAI%2CKAIH%2CKAAI%3BEACH%2CcAAA%3B%3BAAvFN%2CGAAG%2CUAMF%2CIAAG%2CQASF%2CIAAG%2CWA%2BDF%2CEAAC%2CMAIA%2CKAAI%2CKAQH%2CKAAI%3BEACH%3B%3BAA3FN%2CGAAG%2CUAMF%2CIAAG%2CQASF%2CIAAG%2CWA%2BDF%2CEAAC%2CMAIA%2CKAAI%2CKAYH%2CKAAI%2CcAAc%3BEACjB%2CyBAAA%3BEACA%2CcAAA%3B%3BAA%2BBN%2CGAAG%3BEACF%3BEACA%3BEACA%2CiHAAA%3BEACA%3BEACA%2CkCAAA%3B%3BAALD%2CGAAG%2CWAOF%2CIAAG%3BEACF%2CcAAA%3BEACA%2CqBAAA%3B%3BAAQF%2CGAAG%3BEACF%3BEACA%2C6GAAA%3BEACA%2CkCAAA%3BEACA%3BEACA%2CiBAAA%3B%3BAALD%2CGAAG%2CUAQF%2CIAAG%3BEACF%2CcAAA%3B%3BAATF%2CGAAG%2CUAYF%2CIAAG%3BEACF%3B%3BAAbF%2CGAAG%2CUAYF%2CIAAG%2CUAGF%2CIAAG%3BEACF%2CoCAAA%3BEACA%3BEACA%3BEACA%2CcAAA%3BEACA%3BEACA%3BEACA%3B%3BAAtBH%2CGAAG%2CUAYF%2CIAAG%2CUAGF%2CIAAG%2CSASF%3BEACC%3BEACA%3BEACA%2C8GAAA%3BEACA%2CgBAAA%3BEACA%3B%3BAA7BJ%2CGAAG%2CUAYF%2CIAAG%2CUAGF%2CIAAG%2CSAiBF%2CIAAG%3BEACF%2C4BAAA%3B%3BAAjCJ%2CGAAG%2CUAYF%2CIAAG%2CUAGF%2CIAAG%2CSAoBF%2CIAAG%3BEACF%2C%2BBAAA%3B%3BAApCJ%2CGAAG%2CUAYF%2CIAAG%2CUAGF%2CIAAG%2CSAuBF%2CIAAG%3BEACF%2C%2BBAAA%3B%3BAAvCJ%2CGAAG%2CUAYF%2CIAAG%2CUAGF%2CIAAG%2CSA0BF%2CIAAG%3BEACF%2C%2BBAAA%3B%3BAAQJ%2CGAAG%3BEACF%2CyBAAA%3BEACA%3BEACA%3B%3BAAHD%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%3BEACF%3B%3BAARH%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%3BEACF%3BEACA%2C4BAAA%3B%3BAAZJ%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%3BEACD%2CoHAAA%3BEACA%2CkCAAA%3B%3BAAhBL%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGACC%3BEACC%3BEACA%2CyBAAA%3BEACA%2CgHAAA%3BEACA%3BEACA%2CcAAA%3BEACA%2CiCAAA%3BEACA%3BEACA%3BEACA%3B%3BAA5BP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGAaC%2CEAAC%3BEACA%2C2CAAA%3B%3BAAhCP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGAoBC%2CEAAC%3BEACA%2C4BAAA%3B%3BAAvCP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGAuBC%2CEAAC%2CSAAS%3BEACT%2C%2BBAAA%3B%3BAA1CP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGA2BC%2CEAAC%3BEACA%2C%2BBAAA%3B%3BAA9CP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGA8BC%2CEAAC%2CSAAS%3BEACT%2C%2BBAAA%3B%3BAAjDP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGAkCC%2CEAAC%3BEACA%2C%2BBAAA%3B%3BAArDP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGAqCC%2CEAAC%2CcAAc%3BEACd%2CgCAAA%3B%3BAAxDP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGAyCC%2CEAAC%3BEACA%2CgCAAA%3B%3BAA5DP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGA4CC%2CEAAC%2CWAAW%3BEACX%2CgCAAA%3B%3BAA%5C%2FDP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGAgDC%2CEAAC%3BEACA%2CgCAAA%3B%3BAAnEP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGAmDC%2CEAAC%2CWAAW%3BEACX%2CgCAAA%3B%3BAAtEP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGAuDC%2CEAAC%3BEACA%2CgCAAA%3B%3BAA1EP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGA0DC%2CEAAC%2CeAAe%3BEACf%2CgCAAA%3B%3BAA7EP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGA8DC%2CEAAC%3BEACA%2CgCAAA%3B%3BAAjFP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGAiEC%2CEAAC%2CQAAQ%3BEACR%2CgCAAA%3B%3BAApFP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGAqEC%2CEAAC%3BEACA%2CgCAAA%3B%3BAAxFP%2CGAAG%2CWAKF%2CIAAG%2CUAEF%2CIAAG%2CcAGF%2CIAAG%2COAIF%2CGAAE%2CIAID%2CGAwEC%2CEAAC%2CYAAY%3BEACZ%2CgCAAA%3B%3BAAUP%2CGAAG%3BEACF%3BEACA%2CoHAAA%3BEACA%2CkCAAA%3BEACA%2CqBAAA%3BEACA%3B%3BAALD%2CGAAG%2CcAOF%2CIAAG%3BEACF%2CcAAA%3B%3BAARF%2CGAAG%2CcAWF%2CIAAG%3BEACF%3B%3BAAZF%2CGAAG%2CcAWF%2CIAAG%2CUAGF%3BEACC%3BEACA%3BEACA%3B%3BAAjBH%2CGAAG%2CcAqBF%2CIAAG%2CUAEF%3BEACC%2CiCAAA%3BEACA%3BEACA%3BEACA%2CcAAA%3B%3BAA3BH%2CGAAG%2CcA%2BBF%2CIAAG%2CSAEF%3BEACC%2CoCAAA%3BEACA%3BEACA%3BEACA%3B%3BAArCH%2CGAAG%2CcAyCF%2CIAAG%3BEACF%3BEACA%2CgCAAA%3BEACA%2CgBAAA%3B%3BAA5CF%2CGAAG%2CcA%2BCF%2CIAAG%3BEACD%3BEACA%3B%3BAAjDH%2CGAAG%2CcAoDF%2CIAAG%3BEACD%3BEACA%3B%3BAAaH%2CGAAG%3BEACF%3BEACA%2CiBAAA%3B%3BAAFD%2CGAAG%2CaAIF%2CIAAG%3BEACF%2CcAAA%3BEACA%3BEACA%3B%3BAAPF%2CGAAG%2CaAIF%2CIAAG%2CYAKF%3BEACC%3B%3BAAVH%2CGAAG%2CaAcF%2CIAAG%3BEACF%2CcAAA%3BEACA%3BEACA%3B%3BAAjBF%2CGAAG%2CaAcF%2CIAAG%2CaAKF%3BEACC%3B%3BAApBH%2CGAAG%2CaAcF%2CIAAG%2CaASF%3BEACC%2CcAAA%3BEACA%3B%3BAAzBH%2CGAAG%2CaAcF%2CIAAG%2CaAcF%2CEAAC%3BEACA%3B%3BAA7BH%2CGAAG%2CaAiCF%2CIAAG%3BEACF%3BEACA%3BEACA%2CcAAA%3BEACA%2CiCAAA%3BEACA%2CiBAAA%3B%3BAAYF%2CGAAG%3BEACF%3BEACA%3BEACA%3B%3BAAHD%2CGAAG%2CYAKF%2CIAAG%3BEACF%2CyBAAA%3BEACA%2CiBAAA%3BEACA%2C8GAAA%3BEACA%2CkCAAA%3BEACA%3BEACA%3B%3BAAXF%2CGAAG%2CYAKF%2CIAAG%2CQAQF%3BEACC%2CcAAA%3B%3BAAdH%2CGAAG%2CYAkBF%2CIAAG%2CUACF%3BEACC%3B%3BAAwBH%3BEACC%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAAGD%3BEACC%3BEACA%3BEACA%3B%3BAAHD%2CmBAIC%3BAAJD%2CmBAIsB%3BEACpB%3BEACA%3BEACA%3BEACA%2C0CAAA%3BEACA%2C%2BBAAA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CsBAAA%3B%3BAAhBF%2CmBAmBC%2CoBAAmB%3BAAnBpB%2CmBAmB4B%2CoBAAmB%3BEAC7C%2CqBAAA%3BEACA%2CcAAA%3B%3B%3BAAgDF%2CGAAG%3BEAED%3BEACA%3BEACA%3BEACA%3BEACD%3B%3BAAND%2CGAAG%2CcAQD%2CIAAG%3BEACF%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAAdH%2CGAAG%2CcAQD%2CIAAG%2CWAQF%3BEACC%3BEACA%3BEACA%2CoCAAA%3BEACA%3BEACA%3B%3BAArBJ%2CGAAG%2CcAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%3BEACH%3BEACA%3BEACA%3BEACA%3BEACA%2C0CAAA%3B%3BAA5BL%2CGAAG%2CcAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKAOH%3BEACC%3BEACA%2CiBAAA%3BEACA%3BEACA%2CgCAAA%3B%3BAAlCN%2CGAAG%2CcAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKAcH%2CKAAI%3BEACH%3BEACA%3BEACA%3BEACA%3BEACA%2CgBAAA%3B%3BAA1CN%2CGAAG%2CcAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKAsBH%2CKAAI%3BEACH%2CcAAA%3BEACA%2CiCAAA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CgBAAA%3B%3BAApDN%2CGAAG%2CcAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKAgCH%2CKAAI%3BEACH%2CcAAA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CgBAAA%3BEACA%3BEACA%3B%3BAA%5C%2FDN%2CGAAG%2CcAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKA2CH%2CKAAI%3BEACH%2CyBAAA%3BEACA%2CcAAA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CqBAAA%3BEACA%3B%3BAA7EN%2CGAAG%2CcAQD%2CIAAG%2CWA0EF%2CEAAC%3BEACA%3BEACA%2CoCAAA%3B%3BAApFJ%2CGAAG%2CcAQD%2CIAAG%2CWA0EF%2CEAAC%2CMAIA%2CKAAI%3BEACH%2C0CAAA%3BEACA%3B%3BAAxFL%2CGAAG%2CcAQD%2CIAAG%2CWA0EF%2CEAAC%2CMAIA%2CKAAI%2CKAIH%2CKAAI%3BEACH%2CcAAA%3B%3BAA3FN%2CGAAG%2CcAQD%2CIAAG%2CWA0EF%2CEAAC%2CMAIA%2CKAAI%2CKAQH%2CKAAI%3BEACH%3B%3BAA%5C%2FFN%2CGAAG%2CcAQD%2CIAAG%2CWA0EF%2CEAAC%2CMAIA%2CKAAI%2CKAYH%2CKAAI%2CcAAc%3BEACjB%2CyBAAA%3BEACA%2CcAAA%3B%3BAAiCN%2CGAAG%3BEAED%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAANF%2CGAAG%2CUAQD%2CIAAG%3BEACF%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAAdH%2CGAAG%2CUAQD%2CIAAG%2CWAQF%3BEACC%3BEACA%3BEACA%2CoCAAA%3BEACA%3BEACA%3B%3BAArBJ%2CGAAG%2CUAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%3BEACH%3BEACA%3BEACA%3BEACA%3B%3BAA3BL%2CGAAG%2CUAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKAMH%3BEACC%3BEACA%2CiBAAA%3BEACA%3BEACA%2CgCAAA%3B%3BAAjCN%2CGAAG%2CUAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKAaH%2CKAAI%3BAApCT%2CGAAG%2CUAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKAaQ%2CKAAI%3BEACd%2CcAAA%3BEACA%3BEACA%3BEACA%2CmHAAA%3BEACA%3BEACA%2C0BAAA%3B%3BAA1CN%2CGAAG%2CUAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKAsBH%2CKAAI%3BEACH%2C8BAAA%3B%3BAA9CN%2CGAAG%2CUAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKA2BH%2CKAAI%3BEACH%3BEACA%3BEACA%3BEACA%3BEACA%2CgBAAA%3B%3BAAvDN%2CGAAG%2CUAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKAmCH%2CKAAI%3BEACH%2CcAAA%3BEACA%2CiCAAA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CqBAAA%3B%3BAAjEN%2CGAAG%2CUAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKAmCH%2CKAAI%2CcASH%3BEACC%2CcAAA%3BEACA%3BEACA%3BEACA%3B%3BAAvEP%2CGAAG%2CUAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKAoDH%2CKAAI%3BEACH%2CcAAA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CgBAAA%3BEACA%3BEACA%3B%3BAAnFN%2CGAAG%2CUAQD%2CIAAG%2CWAQF%2CEAOC%2CKAAI%2CKA%2BDH%2CKAAI%3BEACH%2CyBAAA%3BEACA%2CcAAA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2CqBAAA%3BEACA%3B%3BAAjGN%2CGAAG%2CUAQD%2CIAAG%2CWA8FF%2CEAAC%3BEACA%3BEACA%2CyCAAA%3B%3BAAxGJ%2CGAAG%2CUAQD%2CIAAG%2CWA8FF%2CEAAC%2CMAIA%2CKAAI%3BEACH%2C0CAAA%3BEACA%3B%3BAA5GL%2CGAAG%2CUAQD%2CIAAG%2CWA8FF%2CEAAC%2CMAIA%2CKAAI%2CKAIH%2CKAAI%3BEACH%2C8BAAA%3B%3BAA%5C%2FGN%2CGAAG%2CUAQD%2CIAAG%2CWA8FF%2CEAAC%2CMAIA%2CKAAI%2CKAQH%2CKAAI%3BEACH%2C8BAAA%3B%3BAAnHN%2CGAAG%2CUAQD%2CIAAG%2CWA8FF%2CEAAC%2CMAIA%2CKAAI%2CKAaH%2CKAAI%3BEACH%2CcAAA%3B%3BAAxHN%2CGAAG%2CUAQD%2CIAAG%2CWA8FF%2CEAAC%2CMAIA%2CKAAI%2CKAiBH%2CKAAI%3BEACH%3BEACA%2CyBAAA%3BEACA%3B%3BAA9HN%2CGAAG%2CUAQD%2CIAAG%2CWA8FF%2CEAAC%2CMAIA%2CKAAI%2CKAuBH%2CKAAI%2CcAAc%3BEACjB%2CyBAAA%3BEACA%2CcAAA%3B%3B%3BAA8EN%2CQAzD2B%3BEAE1B%2CGAAG%2CWACF%2CIAAG%2CUAEF%2CIAAG%2CcAEF%2CIAAG%2COAEF%2CGAAE%3BIACD%2CoHAAA%3B%3BEAOL%2CGAAG%3BIACF%2C6GAAA%3B%3BEAGD%2CGAAG%3BIACF%2C0GAAA%3B%3BEAGD%2CGAAG%3BIACF%2CiHAAA%3B%3BEAID%2CGAAG%3BIACF%2CoHAAA%3B%3BEAGD%2CGAAG%3BIACF%2C6GAAA%3B%3BEAGD%2CGAAG%2CYAEF%2CIAAG%3BIACF%2C8GAAA%3B%3B%3B%3BAAoEH%2CQAjD0B%3BEAGzB%2CGAAG%3BIACF%3B%3BEAKD%2CgBAAiB%2CKAAK%2CGAAG%3BIACxB%3B%3BEAID%2CGAAG%2CUAEF%2CIAAG%2CUAEF%2CIAAG%3BIACF%3BIACA%3B%3BEAMH%2CGAAG%3BIACF%3B%3BEAGD%2CGAAG%3BIACF%3BIACA%3B%3BEAGD%2CGAAG%2CYACF%2CIAAG%2CQACF%2CIAAG%3BIACF%3B%3B%3B%3BAA4GJ%2CQA9F0B%3BEAGzB%2CGAAG%2CaAEF%2CIAAG%3BEAFc%2CGAAG%2CaAAa%2COAEjC%2CIAAG%3BIACF%3BIACA%3B%3BEAJF%2CGAAG%2CaAOF%2CIAAG%3BEAPc%2CGAAG%2CaAAa%2COAOjC%2CIAAG%3BIACF%3B%3BEARF%2CGAAG%2CaAWF%2CGAAE%2CIACD%2CGACC%3BEAbe%2CGAAG%2CaAAa%2COAWjC%2CGAAE%2CIACD%2CGACC%3BIACC%3B%3BEAdJ%2CGAAG%2CaAoBF%2CIAAG%3BEApBc%2CGAAG%2CaAAa%2COAoBjC%2CIAAG%3BIACF%3BIACA%3B%3BEAtBF%2CGAAG%2CaAyBF%2CIAAG%3BEAzBc%2CGAAG%2CaAAa%2COAyBjC%2CIAAG%3BIACF%3B%3BEA1BF%2CGAAG%2CaAyBF%2CIAAG%2CWAIF%3BEA7BgB%2CGAAG%2CaAAa%2COAyBjC%2CIAAG%2CWAIF%3BIACC%2CqCAAA%3B%3BEA9BH%2CGAAG%2CaAyBF%2CIAAG%2CWAIF%2CgBAGC%2CiBAAiB%2CKAAK%2CGAAG%3BEAhCV%2CGAAG%2CaAAa%2COAyBjC%2CIAAG%2CWAIF%2CgBAGC%2CiBAAiB%2CKAAK%2CGAAG%3BIACxB%3B%3BEAOJ%2CGAAG%3BIACF%2C4GAAA%3B%3BEAID%2CGAAG%3BIACF%2CyGAAA%3B%3BEAID%2CGAAG%3BIACF%2CgHAAA%3B%3BEAID%2CGAAG%3BIACF%2C4GAAA%3B%3BEAID%2CGAAG%3BIACF%2CmHAAA%3B%3BEAKD%2CGAAG%2CaAEF%2CIAAG%3BIACF%3B%3BEAHF%2CGAAG%2CaAMF%2CIAAG%3BIACF%3B%3BEAIF%2CGAAG%2CYAEF%2CIAAG%3BIACF%2C6GAAA%3B%3B%3B%3BAAwDF%2CQA1CyB%3BEAEzB%2CGAAG%3BIACF%2C4GAAA%3B%3BEAGD%2CGAAG%3BIACF%2CyGAAA%3B%3BEAGD%2CGAAG%3BIACF%2CgHAAA%3B%3BEAID%2CGAAG%3BIACF%2C4GAAA%3B%3BEAMD%2CGAAG%3BIACF%2CmHAAA%3B%3BEAGD%2CGAAG%2CYAEF%2CIAAG%3BIACF%2C6GAAA%22%7D */
